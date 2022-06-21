@@ -1,0 +1,53 @@
+/* 8. testimonial section start */
+// .testimonial-slider {
+    // box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.1);
+    // position: relative;
+  // }
+  
+  .testimonial-slider .prevArrow,
+  .testimonial-slider .nextArrow {
+    position: absolute;
+    top: 3rem;
+    border: 0;
+    font-size: 20px;
+    background: transparent;
+    color: var(--nne-primary);
+    z-index: 9;
+  }
+  
+  .testimonial-slider .prevArrow:focus,
+  .testimonial-slider .nextArrow:focus {
+    outline: 0;
+  }
+  
+  .testimonial-slider .prevArrow {
+    right: 90px;
+  }
+  
+  .testimonial-slider .nextArrow {
+    right: 50px;
+  }
+  
+  .testimonial-slider .slick-disabled {
+    color: #e5e5e5;
+  }
+  
+  .testimonial-icon {
+    height: 4rem;
+    width: 4rem;
+    padding: 0.2rem; 
+    color: var(--nne-primary); 
+    line-height: 80px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .testimonial-img { 
+    border-radius: 50%;
+    display: block !important;
+    margin: 0 auto !important;
+     
+  }
+  
+  /* testimonial section end */

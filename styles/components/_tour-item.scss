@@ -1,0 +1,73 @@
+.tour-cover-image {
+  height: 90vh ;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat; 
+  position: relative;
+  z-index: 1;
+}
+
+.tour-overlay { 
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 90vh;
+  width: 100%;
+  z-index: 20; 
+}
+
+.tour-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--nne-white);
+  z-index: 30;
+  & h1, h2, h4{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .tour-cover-image{
+    height: 40vh;
+  }
+
+  .tour-overlay {  
+    height: 40vh; 
+  }
+
+  .tour-content{ 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.nav-tabs {
+  color: black !important;
+  background-color: rgb(225, 225, 225) !important;
+  & :focus{
+    color: rgb(91, 91, 91) !important;
+    background-color: rgb(255, 255, 255) !important;
+  }
+}
+
+.tour-body{
+  text-align: justify;
+}
+
+.gallery{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;    
+    & li{
+      list-style: none;
+      margin: 0.4rem;
+    }
+  }
+  
+  .img-thumbnail{
+    object-fit: cover;
+  }

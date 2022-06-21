@@ -1,0 +1,188 @@
+@use './components/header';
+@use './components/hero-slider';
+@use './components/slick';
+@use './components/btn';
+@use './components/footer';
+@use './components/tour-item';
+@use './components/tour-list';
+@use './components/card';
+@use './components/section';
+@use './components/icons';
+@use './styles.scss';
+@use './variables.scss';
+
+:root {
+  --nne-primary: hsl(34, 89%, 58%); 
+  --nne-secondary: hsl(46, 96%, 61%); 
+  --nne-white: hsl(0, 0%, 100%);
+  --nne-golden: hsl(41, 86%, 55%);
+  --nne-bg-menu: hsla(0, 0%, 75%, 0.2);
+  --nne-bg-primary: hsl(34, 89%, 58%);  
+  --nne-bg-secondary: hsl(46, 96%, 61%); 
+  --nne-bg-gray: hsl(0, 0%, 85%); 
+  --nne-bg-footer: hsl(240, 2%, 19%);
+  --nne-font-primary: hsl(34, 89%, 58%);
+  --nne-font-color: hsl(0, 0%, 40%);
+  --nne-font-dark: hsl(0, 0%, 13%);
+  --nne-font-headings: "Poppins", sans-serif;
+  --nne-font-paragraph: "Open Sans", sans-serif;
+}
+
+body {
+  font-family: var(--nne-font-headings);
+  font-weight: 600 !important;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+}
+
+.alert{
+  z-index: 200;
+}
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--nne-white);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+p, .paragraph {
+  font-weight: 600 !important;
+  color: rgb(32, 32, 32);
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  font-family: var(--nne-font-paragraph); 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: rgb(70, 70, 70);
+  font-weight: 600 !important;
+  font-family: var(--nne-font-headings); 
+}
+
+h1, .h1 {
+  font-size: 4rem;
+}
+
+h2, .h2 {
+  font-size: 2.4rem;
+}
+
+
+h3, .h3 {
+  font-size: 2rem;
+}
+
+h4, .h4 {
+  font-size: 1.6rem;
+}
+
+h5, .h5 {
+  font-size: 1.4rem;
+}
+
+h6, .h6 {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 575px) {
+  h1, .h1 {
+    font-size: 2.8rem;
+  }
+
+  h2, .h2 {
+    font-size: 2rem;
+  }
+
+  h3, .h3 {
+    font-size: 1.6rem;
+  }
+
+  h4, .h4 {
+    font-size: 1.2rem;
+  }
+  h5, .h5 {
+    font-size: 1rem;
+  }
+  
+  h6, .h6{
+    font-size: 0.8rem;
+  }
+}
+
+body {
+  background-color: var(--nne-white);
+  overflow-x: hidden;
+}
+
+::-moz-selection {
+  background: var(--nne-secondary);
+  color: var(--nne-white);
+}
+
+::selection {
+  background: var(--nne-secondary);
+  color: var(--nne-white);
+}
+
+.box-shadow {
+  box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+  height: 6rem !important;
+  resize: none !important;
+  &::placeholder{
+    line-height: 8rem;
+  }
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.icon{
+  color: #fff;
+  &:hover{
+    color: var(--nne-font-primary);
+  }
+}
+
+.avatar{
+  border-radius: 5rem;
+}
+
+.accordion-button{
+  border-radius: 35px !important;
+  border: 1px solid rgba(0, 0, 0, 0.099) !important;
+  background-color: rgb(239, 239, 239) !important;
+  &:focus {
+    color: #efaf27 !important;
+    box-shadow: none !important;
+  }
+  &:hover{
+    color: #efaf27 !important;
+  } 
+  &::after{  
+    background: url('https://api.iconify.design/ps/plus.svg?color=%23fbce3c&width=20&height=20') no-repeat center center / contain !important; 
+  }
+  &:focus::after{ 
+    background: url('https://api.iconify.design/ps/minus.svg?color=%23fbce3c&width=20&height=20') no-repeat center center / contain !important; 
+  }
+}
+
+ .form-control{
+  border: none !important;
+  border-bottom: 1px solid black !important;
+  border-radius: 0 !important;
+  &::placeholder{
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+}

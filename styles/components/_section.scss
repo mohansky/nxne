@@ -1,0 +1,230 @@
+.section {
+    padding: 100px 0;
+  }
+  
+  @media (max-width: 575px) {
+    .section {
+      padding: 5rem 0;
+    }
+  }
+  
+  .section-sm {
+    padding: 5rem 0;
+  }
+  
+  .section-title {
+    margin-bottom: 55px;
+  }
+  
+  .section-title-sm {
+    margin-bottom: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    color: #666;
+  }
+  
+  .overlay {
+    position: relative;
+  }
+  
+  .overflow-hidden{
+    overflow: hidden !important;
+  }
+  
+  .overlay::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.329);
+    opacity: .6;
+  }
+  
+  .overlay-dark {
+    position: relative;
+  }
+  
+  .overlay-dark::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.349);
+    opacity: .8;
+  }
+  
+  .overlay-primary {
+    position: relative;
+  }
+  
+  .overlay-primary::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: var(--nne-primary); //65
+    opacity: .6;
+  }
+  
+  .overlay-white {
+    position: relative;
+  }
+  
+  .overlay-white::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: var(--nne-white);
+    opacity: .7;
+  }
+  
+  .overlay-rounded::before {
+    border-radius: 5px;
+  }
+  
+  .section-title-border {
+    position: relative;
+  }
+  
+  .section-title-border::before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 120px;
+    bottom: -10px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    background: var(--nne-primary);
+  }
+  
+  .section-title-border::after {
+    position: absolute;
+    content: '';
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: var(--nne-white);
+    border: 2px solid var(--nne-primary);
+    box-shadow: 0 0 0 5px var(--nne-white);
+    bottom: -14px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  
+  .section-title-border-gray {
+    position: relative;
+  }
+  
+  .section-title-border-gray::before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 120px;
+    bottom: -10px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    background: var(--nne-primary);
+  }
+  
+  .section-title-border-gray::after {
+    position: absolute;
+    content: '';
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #f5f5f5;
+    border: 2px solid var(--nne-primary);
+    box-shadow: 0 0 0 5px #f5f5f5;
+    bottom: -14px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  
+  .section-title-border-half {
+    position: relative;
+  }
+  
+  .section-title-border-half::before {
+    position: absolute;
+    content: '';
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid var(--nne-primary);
+    bottom: -14px;
+    left: 0;
+  }
+  
+  .section-title-border-half::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 50px;
+    left: 15px;
+    bottom: -10px;
+    background: var(--nne-primary);
+  }
+  
+  .section-title-border-half-white {
+    position: relative;
+  }
+  
+  .section-title-border-half-white::before {
+    position: absolute;
+    content: '';
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid var(--nne-white);
+    bottom: -14px;
+    left: 0;
+  }
+  
+  .section-title-border-half-white::after {
+    background: var(--nne-white);
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 50px;
+    left: 15px;
+    bottom: -10px;
+  }
+
+
+  
+.about{
+  height: 80vh;
+}
+.section-bg{
+  z-index: 0;
+}
+
+.about-text{
+  position: relative;
+  z-index: 1;
+}
+
+.cta {
+  height: 50vh;  
+}
+
+@media (max-width: 575px) {
+  .cta {
+    height: 30vh;  
+  }
+}

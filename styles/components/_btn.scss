@@ -1,0 +1,113 @@
+.btn {
+    font-size: 19px;
+    text-transform: uppercase !important;
+    font-family: var(--nne-font-paragraph);
+    color: #3f3f3f !important;
+    text-transform: capitalize;
+    padding: 14px 34px;
+    border-radius: 25px;
+    font-weight: 600;
+    border: 0;
+    position: relative;
+    z-index: 1;
+    transition: .2s ease;
+  }
+  
+  .btn:focus {
+    outline: 0;
+    box-shadow: none !important;
+  }
+  
+  .btn:active {
+    box-shadow: none;
+  }
+  
+  .btn-primary {
+    background: var(--nne-secondary)!important;
+    padding: .8rem 1.6rem !important;
+    border-radius: 5rem !important;
+    border-color: transparent !important;
+    color: var(--nne-white);
+    outline: none !important;
+  }
+  
+  .btn-primary:active {
+    background: #555454 !important;
+  }
+  
+  .btn-primary:hover {
+    background:  var(--nne-primary)!important;
+  }
+  
+  .btn-secondary {
+    background: rgb(159, 159, 163);
+    color: var(--nne-white);
+  }
+  
+  .btn-secondary:active {
+    background: var(--nne-primary) !important;
+  }
+  
+  .btn-secondary:hover {
+    background: var(--nne-primary) !important;
+    background: var(--nne-secondary);
+  }
+  
+  .btn-light {
+    vertical-align:center;
+    background: var(--nne-white) !important;
+    padding: 1rem 2rem !important;
+    color: #222;
+    border: 1px solid var(--nne-white);
+    border-radius: 5rem !important;
+  }
+  
+  .btn-light:hover {
+    background: transparent !important;
+    border: 1px solid var(--nne-white) !important;
+    color: var(--nne-white) !important;
+  }
+  
+  .btn-outline {
+    background: transparent;
+    color: #222;
+    border: 2px solid #303032;
+  }
+  
+  .btn-outline:hover {
+    background: #303032;
+    color: var(--nne-white);
+  }
+  
+  .btn-sm {
+    padding: 13px 40px !important;
+  }
+
+   
+  /* back to top button */
+  .back-to-top {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: var(--nne-white);
+    background: #303032;
+    top: -25px;
+    right: 10px;
+    border: 1px solid #454547;
+    text-align: center;
+    display: block;
+    transition: .2s ease;
+  }
+  
+  .back-to-top i {
+    line-height: 50px;
+  }
+  
+  .back-to-top:hover {
+    border-color: var(--nne-primary);
+  }
+  
+  .back-to-top:focus {
+    outline: 0;
+  }
