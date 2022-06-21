@@ -231,11 +231,15 @@
   outline: none !important;
   & .navbar-toggler-icon{
     background: url('https://api.iconify.design/clarity/close-line.svg') no-repeat center center / contain !important;
+    width: 2rem;
+    height: 2rem;
   }
   &.collapsed{
       outline: none !important;
     & .navbar-toggler-icon{
       background: url('https://api.iconify.design/clarity/bars-line.svg') no-repeat center center / contain !important;
+      width: 2rem;
+      height: 2rem;
     }
   }
 }
