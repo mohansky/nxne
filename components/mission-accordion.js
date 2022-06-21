@@ -24,10 +24,10 @@ export default function MissionAccordion() {
                 src="/images/map-of-northeast-india.jpg"
                 placeholder="blur"
                 blurDataURL={ imgblurDataURL }
-                alt="chart"
-                width={600}
-                height={680}
-                className="img-fluid w-100"
+                alt="chart" 
+                width="600"
+                height="680"
+                className="img-fluid h-100"
               />
             </div>
           </div>

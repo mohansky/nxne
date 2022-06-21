@@ -22,7 +22,7 @@ export default function Header() {
             <Image
               className="img-fluid"
               src="/images/logo.svg"
-              layout="intrinsic"
+              layout="fixed"
               placeholder="blur"
               blurDataURL={imgblurDataURL}
               width="100"
