@@ -56,7 +56,7 @@ export default function Testimonials() {
                 <div className="p-5" key={index}>
                   <Image
                     className="testimonial-img"
-                    src="/images/Clientspeak.jpg"
+                    src="/images/clientspeak.jpg"
                     placeholder="blur"
                     blurDataURL={imgblurDataURL}
                     alt="clients-image"
