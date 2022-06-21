@@ -55,14 +55,14 @@ export default function Testimonials() {
               {Testimonialdata.testimonials.map((item, index) => (
                 <div className="p-5" key={index}>
                   <Image
-                    className="testimonial-img"
-                    src="/images/clientspeak.jpg"
+                    className="img-fluid testimonial-img"
+                    src="/images/Clientspeak.jpg"
                     placeholder="blur"
                     blurDataURL={imgblurDataURL}
                     alt="clients-image"
-                    width={200}
-                    height={200}
-                    layout="intrinsic"
+                    width="200"
+                    height="200"
+                    layout="fixed"
                   />
 
                   <p className="text-dark mt-5">{item.text}</p>

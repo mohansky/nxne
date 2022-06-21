@@ -21,14 +21,14 @@ export default function Footer() {
             <div className="col-lg-6 col-md-6">
               <div className="mb-5 text-md-left">
                 <Image
-                  className="mt-1 mb-5"
+                  className="img-fluid mt-1 mb-5"
                   src="/images/logo.svg"
-                  layout='intrinsic'
+                  layout='fixed'
                   placeholder="blur"
                   blurDataURL={ imgblurDataURL }
                   alt="logo"
-                  width={200}
-                  height={136}
+                  width="200"
+                  height="136"
                 />
                 <p className="text-muted mt-3 mb-30">
                   {Footerdata.footer.content}

@@ -25,8 +25,8 @@ export default function Header() {
               layout="intrinsic"
               placeholder="blur"
               blurDataURL={imgblurDataURL}
-              width={100}
-              height={69}
+              width="100"
+              height="69"
               alt="North by Northeast Journeys"
             />
           </Navbar.Brand>
