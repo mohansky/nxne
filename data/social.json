@@ -1,0 +1,16 @@
+{
+  "social": [
+    {
+      "icons": "bi:facebook",
+      "link": "https://www.facebook.com/northbynortheastjourneys"
+    },
+    {
+      "icons": "bi:instagram",
+      "link": "https://www.instagram.com/north_by_northeast/"
+    },
+    {
+      "icons": "bi:youtube",
+      "link": "https://www.youtube.com/channel/UCoOuUJl2OclF3xM2nCKAlSA/videos"
+    }
+  ]
+}
