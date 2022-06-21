@@ -57,7 +57,7 @@ export default function Footer() {
                 {Menuitems.menu.footer.map((item, index) => (
                   <li key={index}>
                     <a className="font-secondary text-white" href={item.URL}>  
-                      <Icon className="mb-1" icon="bi:chevron-right" /> 
+                      <Icon className="mb-1" icon="bi:chevron-right" width={15} height={15} /> 
                       {item.name}
                     </a>
                   </li>
@@ -70,7 +70,7 @@ export default function Footer() {
                 {Menuitems.menu.mainmenu.map((item, index) => (
                   <li key={index}>
                     <a className="font-secondary text-white" href={item.URL}>  
-                      <Icon className="mb-1" icon="bi:chevron-right" /> 
+                      <Icon className="mb-1" icon="bi:chevron-right" width={15} height={15} /> 
                       {item.name}
                     </a>
                   </li>
