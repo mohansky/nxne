@@ -27,6 +27,7 @@ export default function TourCard({
                 blurDataURL={ imgblurDataURL }
                 width={240}
                 height={160}
+                sizes="30vw"
                 alt={title}
               />
             </div>
