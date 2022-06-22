@@ -9,8 +9,7 @@ export default function MissionAccordion() {
       <section className="mission section">
         <div className="container">
           <div className="row">
-            <div className="col-lg-12">
-              <h5 className="section-title-sm"></h5>
+            <div className="col-lg-12"> 
               <h2 className="section-title section-title-border-half">
                 The region at a glance
               </h2>
@@ -25,6 +24,7 @@ export default function MissionAccordion() {
                 placeholder="blur"
                 blurDataURL={ imgblurDataURL }
                 alt="chart" 
+                layout="intrinsic"
                 width="600"
                 height="680"
                 className="img-fluid h-100"
