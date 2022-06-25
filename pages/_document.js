@@ -47,11 +47,11 @@ export default class MyDocument extends Document {
           <meta name="keywords" content="Northeast India, Assam, Arunachal Pradesh, Meghalaya, Nagaland, Sikkim, Active Holidays, Leisure Holidays, Family Holidays, Cycling, Trekking, Rafting, Culture Holidays"/>
 
           {/* Twitter Card */}
-          <meta
+          {/* <meta
             name="twitter:card"
             content={`North by Northeast Journeys, specializes in the little-known Northeast region of India, offering adventure, nature and culture tours across Assam, Arunachal Pradesh, Meghalaya, Nagaland and Sikkim. | ${CMS_NAME}.`}
-          />
-          {/* <meta name="twitter:card" content="summary_large_image"/> */}
+          /> */}
+          <meta name="twitter:card" content="summary_large_image"/>
           <meta name="twitter:title" content="Claim this Redeemable NFT"/>
           <meta name="twitter:site" content={EXAMPLE_PATH} />
           <meta name="twitter:creator" content="@mogsishere" />
