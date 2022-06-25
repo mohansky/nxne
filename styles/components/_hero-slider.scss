@@ -27,12 +27,12 @@
   position: absolute;
   top: 35%;
   left: 10%;
-  // transform: translate(-50%, -50%);
   color: var(--nne-white);
   z-index: 30; 
   &.page {
     left: 50%;
-    top: 50%; 
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
