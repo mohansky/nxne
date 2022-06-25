@@ -1,55 +1,41 @@
 import React, { useState } from "react";
 import { Form, Button } from "react-bootstrap";
-// import SuccessMessage from "./success-message";
+import { useFormspark } from "@formspark/use-formspark";
+import {useRouter} from 'next/router'
+
+const FORMSPARK_FORM_ID = "ffYSFxYG";
 
 export default function EnquiryForm({ title }) {
-  // const [show, setShow] = useState(false);
+  const router = useRouter()
+const [submit, submitting] = useFormspark({
+    formId: FORMSPARK_FORM_ID,
+  });
 
-  // function encode(data) {
-  //   return Object.keys(data)
-  //     .map(
-  //       (key) =>
-  //         encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-  //     )
-  //     .join("&");
-  // }
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState(""); 
+  const [message, setMessage] = useState("");
+ 
+  const onSubmit = async (e) => {
+    e.preventDefault();
+    await submit({ name, email, title, message });
+    router.push("/thankyou")
+  };
   
-  // const formSubmitHandeler = (event) => {
-  //   event.preventDefault();
-  //   fetch("/", {
-  //     method: "POST",
-  //     headers: { "Content-Type": "application/x-www-form-urlencoded" },
-  //     body: encode({
-  //       "form-name": event.target.getAttribute("name"),
-  //       ...name,
-  //     }),
-  //   })
-  //     .then(setShow(!show))
-  //     .catch((error) => alert(error));
-  // };
-
-  // handleChange = e => this.setState({ [e.target.name]: e.target.value });
-  // const formSubmitHandeler = (e) => {
-  //   e.preventDefault();
-  //   setShow(!show);
-  // };
   return ( 
     <>
-      <div className="col-lg-6 col-md-7">
-      {/* {!show && ( */}
+      <div className="col-lg-8 col-md-10"> 
         <Form
           name="enquiryForm" 
-          method="POST"
-          data-netlify="true"
-          netlify-honeypot="bot-field"
-          action="/thankyou"
-          // onSubmit={formSubmitHandeler}
-        >
-          <p className="d-none">
-            <label>
-              Don’t fill this out if you’re human: <input name="bot-field" />
-            </label>
-          </p>
+          onSubmit={onSubmit}
+        > 
+          <input
+              type="checkbox"
+              name="_honeypot"
+              style={{display: 'none'}}
+              tabindex="-1"
+              autocomplete="off"
+            />
+            <input type="hidden" name="_email.from" value={name} />
           <input type="hidden" name="form-name" value="enquiryForm" />
           <input
             id="tourtitle"
@@ -63,9 +49,8 @@ export default function EnquiryForm({ title }) {
                 <Form.Control
                   type="name"
                   name="name"
-                  // value={name}
-                  // onChange={this.handleChange} 
                   placeholder="Name"
+                  value={name} onChange={(e) => setName(e.target.value)}
                   required
                 />
               </Form.Group>
@@ -75,9 +60,8 @@ export default function EnquiryForm({ title }) {
                 <Form.Control
                   type="email"
                   name="email"
-                  // value={email}
-                  // onChange={this.handleChange} 
                   placeholder="Email"
+                  value={email} onChange={(e) => setEmail(e.target.value)}
                   required
                 />
               </Form.Group>
@@ -86,20 +70,19 @@ export default function EnquiryForm({ title }) {
 
           <Form.Group className="mb-3" controlId="formTextarea"> 
             <Form.Control as="textarea" 
-                type="message"
-                name="message"
-            // value={message} onChange={this.handleChange} 
-            placeholder="Your message. Please include as much information about your requirement." rows="5"/>
+              type="message"
+              name="message"
+              placeholder="Your message. Please include as much information about your requirement." 
+              value={message} onChange={(e) => setMessage(e.target.value)}
+              rows="5"/>
           </Form.Group>
 
           <div className="d-grid mb-5">
-            <Button variant="primary" type="submit">
+            <Button variant="primary" type="submit" disabled={submitting}>
               Submit
             </Button>
           </div>
-        </Form>
-        {/* )}
-        {show && <SuccessMessage />} */}
+        </Form> 
       </div>
     </>
   );
