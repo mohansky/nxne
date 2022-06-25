@@ -77,7 +77,7 @@ export default function HeroSliderMain() {
                 <div className="overlay"></div>
                 <Image
                   src={item.image}
-                  alt="Cover Image"
+                  alt="North by Northeast Journeys"
                   layout="fill"
                   placeholder="blur"
                   blurDataURL={imgblurDataURL}

@@ -40,7 +40,7 @@ export default function Footer() {
                       <a
                         href={item.link}
                         className="mx-2 text-white"
-                        // className="social-icon-outline"
+                        aria-label={item.name}
                         target="_blank"
                       >
                         <Icon icon={item.icons} width={30} height={30}  />

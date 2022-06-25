@@ -24,7 +24,7 @@ export default function Alert() {
           </li>
           {Sociallinks.social.map((item, index) => (
             <li className="list-inline-item mx-1 my-0" key={index}>
-              <a href={item.link} className="icon m-1" target="_blank"  >
+              <a href={item.link} className="icon m-1" target="_blank" aria-label={item.name} >
                 <Icon className="mb-1" icon={item.icons} width={15} height={15} aria-label={item.name}/>
               </a>
             </li>
