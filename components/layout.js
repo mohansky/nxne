@@ -6,6 +6,7 @@ import Header from "./header";
 import HeroSliderPage from "./hero-slider-page";
 import HeroSliderMain from "./hero-slider-main";
 import { useRouter } from "next/router"; 
+// import HeroSliderFramer from "./hero-slider-framer";
 
 export default function Layout({ children }) {
   const router = useRouter();
@@ -20,6 +21,7 @@ export default function Layout({ children }) {
     header = (
       <> 
         <HeroSliderMain />
+        {/* <HeroSliderFramer/> */}
       </>
     );
   } 

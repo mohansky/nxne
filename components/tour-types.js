@@ -1,14 +1,35 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import { imgblurDataURL } from "../lib/constants";
 import Link from "next/link";
 import Tourtypedata from "../data/tourtypes.json";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from 'react-intersection-observer';
 
-export default function TourTypes() {
+export default function TourTypes( ) {
+  const { ref, inView, entry } = useInView({threshold: 0.2});
+  const animation = useAnimation();
+
+  useEffect(()=>{
+    console.log("use effect", inView, entry );
+    if(inView){
+      animation.start({
+        opacity: 1,
+        transition: {
+          type: 'spring',
+          duration: 2,  
+        }
+      });
+    }
+      if(!inView){
+        animation.start({opacity: 0}) 
+      }
+  }, [inView]);
+
   return (
     <>
       <section className="section">
-        <div className="container">
+        <div  className="container">
           <div className="row justify-content-center">
             <div className="col-lg-12 text-center">
               <h2 className="section-title section-title-border">
@@ -17,12 +38,14 @@ export default function TourTypes() {
             </div> 
             <div className="row">
               {Tourtypedata.tourtype.map((item, index) => (
-                <div className="col-lg-4 col-sm-6 mb-4" key={index}>
-                  <div className="card border-1 rounded-0 text-center">
+                <div ref={ref} className="col-lg-4 col-sm-6 mb-4" key={index}>
+                  <motion.div  animate={animation} 
+                    className="card border-1 rounded-0 text-center"
+                    >
                     <h5 className="card-title py-3">{item.title}</h5>
                     <div className="card-img-wrapper">
                       <Image
-                        className="card-img-top rounded-0"
+                        className="card-img-top img-fluid"
                         src={item.img}
                         alt={item.title}
                         placeholder="blur"
@@ -37,7 +60,7 @@ export default function TourTypes() {
                         {item.text}
                       </p>
                     </div>
-                  </div>
+                  </motion.div>
                 </div>
               ))}
             </div>

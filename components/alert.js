@@ -5,7 +5,8 @@ import Sociallinks from "../data/social.json";
 
 export default function Alert() {
   return (
-    <div className="alert bg-dark d-none d-md-flex justify-content-end text-light rounded-0 mb-0 py-0 pe-1">
+    <div className="alert bg-dark justify-content-end text-light rounded-0 mb-0 py-0 pe-1">
+       {/* d-none d-md-flex */}
       <Nav className="mx-5">
         <ul className="list-inline text-center text-md-right my-1">
           <li className="list-inline-item mx-1 my-0">

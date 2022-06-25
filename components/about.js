@@ -1,10 +1,30 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Link from 'next/link'
 import Image from "next/image";
 import { imgblurDataURL } from "../lib/constants";
 import Aboutdata from "../data/about.json";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from 'react-intersection-observer';
 
 export default function About() {
+  const { ref, inView, entry } = useInView({threshold: .4});
+  const animation = useAnimation();
+
+  useEffect(()=>{
+    console.log("use effect", inView, entry );
+    if(inView){
+      animation.start({
+        opacity: 1,
+        transition: {
+          type: 'tween',
+          duration: 2, 
+        }
+      });
+    }
+      if(!inView){
+        animation.start({opacity: 0})
+      }
+  }, [inView]);
   return (
     <>
       <section className="about section-sm overlay my-5">
@@ -19,8 +39,8 @@ export default function About() {
         />
         <div className="container about-text ">
           <div className="row " >
-            <div className="col-lg-7 offset-lg-4">
-              <div className="rounded p-sm-3 px-2 py-4 bg-dark">
+            <div ref={ref} className="col-lg-7 offset-lg-4">
+              <motion.div animate={animation} className="rounded p-sm-3 px-2 py-4 bg-dark">
                 <h3 className="section-title section-title-border-half text-white"> 
                   {Aboutdata.about.title}
                 </h3>
@@ -32,7 +52,7 @@ export default function About() {
                   {Aboutdata.about.btntext}
                 </a>
                 </Link>
-              </div>
+              </motion.div>
             </div>
           </div>
         </div>

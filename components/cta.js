@@ -1,10 +1,31 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Button } from "react-bootstrap";
 import Link from "next/link";
 import Image from "next/image";
 import { imgblurDataURL } from "../lib/constants";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from 'react-intersection-observer';
 
 export default function CTA() {
+  const { ref, inView, entry } = useInView({threshold: 0.2});
+  const animation = useAnimation();
+
+  useEffect(()=>{
+    console.log("use effect", inView, entry );
+    if(inView){
+      animation.start({
+        y: 0,
+        transition: {
+          type: 'spring',
+          duration: 2, 
+          bounce: 0.1
+        }
+      });
+    }
+      if(!inView){
+        animation.start({y: '5vh'})
+      }
+  }, [inView]);
   return (
     <>
       <section className="cta section-sm overlay my-auto  d-flex justify-content-end align-content-center">
@@ -17,11 +38,11 @@ export default function CTA() {
           objectFit="cover"
           objectPosition="center"
         />
-        <div className="container d-flex justify-content-end align-self-center">
+        <div ref={ref} className="container d-flex justify-content-end align-self-center">
           <Link href="/contact">
-            <Button className="btn btn-light text-uppercase cta-btn">
+            <motion.button animate={animation} className="btn btn-light text-uppercase cta-btn">
               get in touch
-            </Button>
+            </motion.button>
           </Link>
         </div>
       </section>
