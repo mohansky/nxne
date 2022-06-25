@@ -7,7 +7,7 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from 'react-intersection-observer';
 
 export default function TourTypes( ) {
-  const { ref, inView, entry } = useInView({threshold: 0.2});
+  const { ref, inView, entry } = useInView({threshold: 0.075});
   const animation = useAnimation();
 
   useEffect(()=>{
@@ -42,7 +42,7 @@ export default function TourTypes( ) {
                   <motion.div  animate={animation} 
                     className="card border-1 rounded-0 text-center"
                     >
-                    <h4 className="card-title py-3">{item.title}</h4>
+                    <h3 className="card-title py-3">{item.title}</h3>
                     <div className="card-img-wrapper">
                       <Image
                         className="card-img-top img-fluid"
