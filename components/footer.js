@@ -30,7 +30,7 @@ export default function Footer() {
                   width="200"
                   height="136"
                 />
-                <p className="mt-3 mb-30">
+                <p className="mt-3 text-white mb-30">
                   {Footerdata.footer.content}
                 </p>
 

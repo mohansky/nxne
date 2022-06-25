@@ -5,7 +5,7 @@ import Sociallinks from "../data/social.json";
 
 export default function Alert() {
   return (
-    <div className="alert bg-dark justify-content-end text-light rounded-0 mb-0 py-0 pe-1">
+    <div className="alert bg-dark d-flex justify-content-end text-light rounded-0 mb-0 py-0 pe-1">
        {/* d-none d-md-flex */}
       <Nav className="mx-5">
         <ul className="list-inline text-center text-md-right my-1">
@@ -24,8 +24,8 @@ export default function Alert() {
           </li>
           {Sociallinks.social.map((item, index) => (
             <li className="list-inline-item mx-1 my-0" key={index}>
-              <a href={item.link} className="icon m-1" target="_blank" aria-label="Left align">
-                <Icon className="mb-1" icon={item.icons} width={15} height={15} />
+              <a href={item.link} className="icon m-1" target="_blank"  >
+                <Icon className="mb-1" icon={item.icons} width={15} height={15} aria-label={item.name}/>
               </a>
             </li>
           ))}
