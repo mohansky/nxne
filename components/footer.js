@@ -52,7 +52,7 @@ export default function Footer() {
             </div>
 
             <div className="col-lg-2 col-md-3">
-              <h4 className="text-white mb-4">Important Links</h4>
+              <h6 className="text-white mb-4">Important Links</h6>
               <ul className="footer-links">
                 {Menuitems.menu.footer.map((item, index) => (
                   <li key={index}>
@@ -65,7 +65,7 @@ export default function Footer() {
               </ul>
             </div>
             <div className="col-lg-2 col-md-3">
-              <h4 className="text-white mb-4">Quick Links</h4>
+              <h6 className="text-white mb-4">Quick Links</h6>
               <ul className="footer-links">
                 {Menuitems.menu.mainmenu.map((item, index) => (
                   <li key={index}>
