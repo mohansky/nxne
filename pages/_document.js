@@ -1,4 +1,4 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document'
+import Document, { Html, Head, Main, NextScript } from "next/document";
 // import Script from "next/script"
 // import { GTM_ID } from "../lib/gtm";
 
@@ -6,8 +6,8 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-         <Head> 
-         {/* <Script
+        <Head>
+          {/* <Script
             strategy="afterInteractive"
             dangerouslySetInnerHTML={{
               __html: `
@@ -19,13 +19,39 @@ export default class MyDocument extends Document {
           `,
             }}
           /> */}
-          <link rel="preconnect" href="https://fonts.googleapis.com"/>
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"/>
-          <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/> 
+          <meta charset="UTF-8" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+          />
+          <link
+            rel="preconnect"
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+            crossOrigin="true"
+          />
+          <link rel="shortcut icon" href="/images/logo.png" />
 
+          {/* General Meta */}
+          <meta property="og:url" content={`${EXAMPLE_PATH}`} />
+          <meta property="og:type" content="website" />
+          <meta property="og:title" content={`${CMS_NAME}`} />
+          <meta
+            property="og:description"
+            content={`North by Northeast Journeys, specializes in the little-known Northeast region of India, offering adventure, nature and culture tours across Assam, Arunachal Pradesh, Meghalaya, Nagaland and Sikkim. | ${CMS_NAME}.`}
+          />
+          <meta property="og:image" content={HOME_OG_IMAGE_URL} />
+
+          {/* Twitter Card */}
+          <meta
+            name="twitter:card"
+            content={`North by Northeast Journeys, specializes in the little-known Northeast region of India, offering adventure, nature and culture tours across Assam, Arunachal Pradesh, Meghalaya, Nagaland and Sikkim. | ${CMS_NAME}.`}
+          />
+          <meta name="twitter:site" content={`${EXAMPLE_PATH}`} />
+          <meta name="twitter:creator" content="@mogsishere" />
         </Head>
-           {/* <!-- Google Tag Manager (noscript) --> */}
-           {/* <noscript>
+        {/* <!-- Google Tag Manager (noscript) --> */}
+        {/* <noscript>
             <iframe
               src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
               height="0"
@@ -33,12 +59,12 @@ export default class MyDocument extends Document {
               style={{ display: "none", visibility: "hidden" }}
             />
           </noscript> */}
-          {/* <!-- End Google Tag Manager (noscript) --> */}
+        {/* <!-- End Google Tag Manager (noscript) --> */}
         <body>
           <Main />
           <NextScript />
         </body>
       </Html>
-    )
+    );
   }
 }
