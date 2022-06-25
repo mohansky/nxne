@@ -40,7 +40,7 @@ export default function Layout({ children }) {
   return (
     <>
       <div data-is-root-path={isRootPath}>
-        <Meta />
+        {/* <Meta /> */}
         <Alert />
         <Header />
         <header>{header}</header>
