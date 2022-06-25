@@ -66,7 +66,7 @@ export default function Testimonials() {
                   />
 
                   <p className="text-dark mt-5">{item.text}</p>
-                  <h4 className="fw-normal">{item.name}</h4>
+                  <h5 className="fw-normal">{item.name}</h5>
                   <h6 className="font-secondary text-color">{item.tour}</h6>
                 </div>
               ))}

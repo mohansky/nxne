@@ -31,6 +31,7 @@ export default function About() {
         <Image
           className="section-bg"
           src={Aboutdata.about.img}
+          alt="Northeast India Man on stilts"
           layout="fill"
           placeholder="blur"
           blurDataURL={ imgblurDataURL }

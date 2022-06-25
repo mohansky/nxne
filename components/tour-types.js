@@ -51,8 +51,8 @@ export default function TourTypes( ) {
                         placeholder="blur"
                         blurDataURL={ imgblurDataURL }
                         width={240}
-                        height={160}
-                        layout="responsive"
+                        height={170}
+                        layout="intrinsic" 
                       />
                     </div>
                     <div className="card-body p-0">

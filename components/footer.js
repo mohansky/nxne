@@ -30,7 +30,7 @@ export default function Footer() {
                   width="200"
                   height="136"
                 />
-                <p className="text-muted mt-3 mb-30">
+                <p className="mt-3 mb-30">
                   {Footerdata.footer.content}
                 </p>
 
@@ -114,7 +114,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <button className="back-to-top" onClick={() => router.push(top)}> 
+          <button className="back-to-top" aria-label="back-to-top" onClick={() => router.push(top)}> 
             <Icon icon="bi:chevron-up" width={30} height={30} />
           </button>
         </div>

@@ -32,6 +32,7 @@ export default function CTA() {
         <Image
           className=" "
           src="/images/ferry-crossing.jpg"
+          alt="Northeast India ferry crossing"
           layout="fill"
           placeholder="blur"
           blurDataURL={ imgblurDataURL }
