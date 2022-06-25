@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { Container, Button } from "react-bootstrap";
-import { CMS_NAME } from "../lib/constants";
+import { CMS_NAME, imgblurDataURL, EXAMPLE_PATH,  HOME_OG_IMAGE_URL } from "../lib/constants";
 import { useRouter } from "next/router";
 
 export default function Thankyou() {

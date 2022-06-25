@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import { CMS_NAME } from "../../lib/constants";
+import { CMS_NAME, imgblurDataURL, EXAMPLE_PATH,  HOME_OG_IMAGE_URL } from "../../lib/constants";
 import Image from "next/image";
 import Teamdata from "../../data/team.json";
 import { Icon } from "@iconify/react";
@@ -13,13 +13,12 @@ export default function Team() {
         {/* <meta property="og:image" content={tour.ogImage.url} /> */}
       </Head>
       <section className="section">
-        <div className="container">
-          <div className="my-5">
+        <div className="container"> 
             <h2 className="section-title section-title-border-half">
               {Teamdata.title}
             </h2>
             <p className="text-justify">{Teamdata.text}</p>
-          </div>
+          
           <div className="row">
             {Teamdata.teammembers
               .sort((a, b) => (a.weight > b.weight ? 1 : -1))
@@ -34,7 +33,7 @@ export default function Team() {
                       className="card-img-top"
                       src={item.image}
                       placeholder="blur"
-                      blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mPsqQcAAZ0BDTSBuAQAAAAASUVORK5CYII="
+                      blurDataURL={imgblurDataURL} 
                       width={340}
                       height={290}
                       layout="responsive"
@@ -63,8 +62,8 @@ export default function Team() {
                   </div>
                 </div>
               ))}
+          </div> 
           </div>
-        </div>
       </section>
     </>
   );

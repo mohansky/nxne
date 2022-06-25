@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import { CMS_NAME } from "../../lib/constants";
+import { CMS_NAME, imgblurDataURL, EXAMPLE_PATH,  HOME_OG_IMAGE_URL } from "../../lib/constants";
 import Insightsdata from "../../data/insights.json";
 import Image from "next/image";
 
@@ -35,7 +35,7 @@ export default function Insights() {
                       className="card-img-top rounded-0"
                       src={item.image}
                       placeholder="blur"
-                      blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mPsqQcAAZ0BDTSBuAQAAAAASUVORK5CYII="
+                      blurDataURL={imgblurDataURL}
                       alt="service-image"
                       layout="responsive"
                       width="240"

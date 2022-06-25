@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import { CMS_NAME } from "../../lib/constants";
+import { CMS_NAME, imgblurDataURL, EXAMPLE_PATH,  HOME_OG_IMAGE_URL } from "../../lib/constants";
 import { getTourBySlug, getAllTours } from "../../lib/api";
 import { Container, Tabs, Tab } from "react-bootstrap";
 import ErrorPage from "next/error";
