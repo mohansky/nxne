@@ -9,7 +9,7 @@ export default function Testimonials() {
   function SampleNextArrow(props) {
     const { onClick } = props;
     return (
-      <button className="prevArrow" onClick={onClick}>
+      <button className="prevArrow" onClick={onClick} aria-label="previous">
         <Icon icon="bi:arrow-left" width="30" height="30" />
       </button>
     );
@@ -18,7 +18,7 @@ export default function Testimonials() {
   function SamplePrevArrow(props) {
     const { onClick } = props;
     return (
-      <button className="nextArrow" onClick={onClick}>
+      <button className="nextArrow" onClick={onClick} aria-label="next">
         <Icon icon="bi:arrow-right" width="30" height="30" />
       </button>
     );
@@ -66,8 +66,8 @@ export default function Testimonials() {
                   />
 
                   <p className="text-dark mt-5">{item.text}</p>
-                  <h6 className="fw-normal fs-4 fst-italic">{item.name}</h6>
-                  <h6 className="font-secondary text-color">{item.tour}</h6>
+                  <p className="fw-normal fs-4 fst-italic">{item.name}</p>
+                  <p className="font-secondary text-color">{item.tour}</p>
                 </div>
               ))}
             </Slider>
