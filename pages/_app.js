@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import Head from 'next/head'
 import "../styles/global.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Layout from "../components/layout";
@@ -16,6 +17,9 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <SSRProvider>
       <SimpleReactLightbox>
+      <Head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      </Head>
         <Layout>
           <Component {...pageProps} />
         </Layout>
