@@ -6,7 +6,7 @@ export default function TourCoverImage({ title, src, subtitle, days }) {
   const image = (
     <Image
       src={src}
-      alt={`Cover Image for ${title}`} 
+      alt={title}
       placeholder="blur"
       blurDataURL={ imgblurDataURL }
       layout="fill"
