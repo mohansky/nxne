@@ -57,7 +57,8 @@ export default function TourIndex({ allTours }) {
   return (
     <>
       <Head>
-        <title> Tours | {CMS_NAME} </title>
+        <title> Tours | {CMS_NAME} </title> 
+        <meta property="og:title" content={`Tours | ${CMS_NAME}`}/>
       </Head>
 
       <Container >
