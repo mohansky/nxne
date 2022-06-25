@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
+import { CMS_NAME, HOME_OG_IMAGE_URL, EXAMPLE_PATH } from "../lib/constants";
 // import Script from "next/script"
 // import { GTM_ID } from "../lib/gtm";
 
@@ -33,9 +34,9 @@ export default class MyDocument extends Document {
           <link rel="shortcut icon" href="/images/logo.png" />
 
           {/* General Meta */}
-          <meta property="og:url" content={`${EXAMPLE_PATH}`} />
+          <meta property="og:url" content={EXAMPLE_PATH} />
           <meta property="og:type" content="website" />
-          <meta property="og:title" content={`${CMS_NAME}`} />
+          <meta property="og:title" content={CMS_NAME}/>
           <meta
             property="og:description"
             content={`North by Northeast Journeys, specializes in the little-known Northeast region of India, offering adventure, nature and culture tours across Assam, Arunachal Pradesh, Meghalaya, Nagaland and Sikkim. | ${CMS_NAME}.`}
@@ -47,7 +48,7 @@ export default class MyDocument extends Document {
             name="twitter:card"
             content={`North by Northeast Journeys, specializes in the little-known Northeast region of India, offering adventure, nature and culture tours across Assam, Arunachal Pradesh, Meghalaya, Nagaland and Sikkim. | ${CMS_NAME}.`}
           />
-          <meta name="twitter:site" content={`${EXAMPLE_PATH}`} />
+          <meta name="twitter:site" content={EXAMPLE_PATH} />
           <meta name="twitter:creator" content="@mogsishere" />
         </Head>
         {/* <!-- Google Tag Manager (noscript) --> */}
