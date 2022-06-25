@@ -33,7 +33,9 @@ export default class MyDocument extends Document {
           />
           <link rel="shortcut icon" href="/images/logo.png" />
 
+
           {/* General Meta */}
+          <meta name="description" content={`North by Northeast Journeys, specializes in the little-known Northeast region of India, offering adventure, nature and culture tours across Assam, Arunachal Pradesh, Meghalaya, Nagaland and Sikkim. | ${CMS_NAME}.`}/>
           <meta property="og:url" content={EXAMPLE_PATH} />
           <meta property="og:type" content="website" />
           <meta property="og:title" content={CMS_NAME}/>
