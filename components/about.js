@@ -7,7 +7,7 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from 'react-intersection-observer';
 
 export default function About() {
-  const { ref, inView, entry } = useInView({threshold: .4});
+  const { ref, inView, entry } = useInView({threshold: .3});
   const animation = useAnimation();
 
   useEffect(()=>{

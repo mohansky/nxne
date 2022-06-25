@@ -7,7 +7,7 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from 'react-intersection-observer';
 
 export default function TourTypes( ) {
-  const { ref, inView, entry } = useInView({threshold: 0.075});
+  const { ref, inView, entry } = useInView({threshold: 0.1});
   const animation = useAnimation();
 
   useEffect(()=>{
@@ -36,9 +36,9 @@ export default function TourTypes( ) {
                 {Tourtypedata.tourtypetitle}
               </h2>
             </div> 
-            <div className="row">
+            <div className="row" ref={ref}>
               {Tourtypedata.tourtype.map((item, index) => (
-                <div ref={ref} className="col-lg-4 col-sm-6 mb-4" key={index}>
+                <div  className="col-lg-4 col-sm-6 mb-4" key={index}>
                   <motion.div  animate={animation} 
                     className="card border-1 rounded-0 text-center"
                     >
