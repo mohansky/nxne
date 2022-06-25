@@ -39,7 +39,7 @@ export default function Tour({ tour }) {
               <title>
                 {tour.title} | {CMS_NAME}
               </title>
-              <meta property="og:image" content={tour.tour.bg_image} />
+              <meta property="og:image" content={tour.bg_image} />
             </Head>
 
             {tour.title || tour.subtitle || tour.days || tour.bg_image ? (
