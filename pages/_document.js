@@ -47,7 +47,7 @@ export default class MyDocument extends Document {
           <meta name="keywords" content="Northeast India, Assam, Arunachal Pradesh, Meghalaya, Nagaland, Sikkim, Active Holidays, Leisure Holidays, Family Holidays, Cycling, Trekking, Rafting, Culture Holidays"/>
 
           {/* Twitter Card */}
-          <meta name="twitter:card" content="Holidays_in_Northeast_India"/>
+          <meta name="twitter:card" content="summary"/>
           <meta name="twitter:title" content="North by Northeast Journeys"/>
           <meta name="twitter:site" content={EXAMPLE_PATH} />
           <meta name="twitter:creator" content="@mogsishere" />
