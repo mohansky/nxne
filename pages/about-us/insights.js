@@ -28,7 +28,7 @@ export default function Insights() {
           <div className="row justify-content-center">
             {Insightsdata.insights.map((item, index) => (
               <div className="col-lg-4 col-sm-6 mb-4" key={index}>
-                <div className="card text-center">
+                <div className="card text-center shadow-sm">
                   <h5 className="card-title py-3">{item.title}</h5>
                   <div className="card-img-wrapper">
                     <Image

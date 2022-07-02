@@ -23,12 +23,8 @@ export default function Team() {
             {Teamdata.teammembers
               .sort((a, b) => (a.weight > b.weight ? 1 : -1))
               .map((item, index) => (
-                <div
-                  className="col-lg-3
-                   col-sm-6 mb-4"
-                  key={index}
-                >
-                  <div className="card text-center">
+                <div className="col-lg-3 col-sm-6 mb-4" key={index}>
+                  <div className="card text-center shadow-sm">
                     <Image
                       className="card-img-top"
                       src={item.image}
