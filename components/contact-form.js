@@ -26,11 +26,11 @@ export default function ContactForm() {
       console.log('invalid')
     }
     else{
-      setValidated(true);
       e.preventDefault();
       await submit({ name, email, subject, message});
       console.log('valid')
     } 
+    setValidated(true);
   };
 
   return (
@@ -52,8 +52,8 @@ export default function ContactForm() {
             tabIndex="-1"
             autoComplete="off"
           />
-          <input type="hidden" name="_redirect" value="https://nxne.vercel.app/thankyou"/>
-          <input type="hidden" name="_email.from" value={name} />
+          {/* <input type="hidden" name="_redirect" value="https://nxne.vercel.app/thankyou"/> */}
+          {/* <input type="hidden" name="_email.from" value={name} /> */}
           <Row>
             <Col sm={6}>
               <Form.Group className="mb-3" controlId="formName">

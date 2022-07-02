@@ -31,11 +31,11 @@ export default function EnquiryForm({ title }) {
       console.log('invalid')
     } 
     else{
-      setValidated(true);
       e.preventDefault();
       await submit({ name, email, title, message });
       console.log('valid')
     }
+    setValidated(true);
   };
 
   return (
@@ -54,8 +54,8 @@ export default function EnquiryForm({ title }) {
             tabIndex="-1"
             autocomplete="off"
           />
-          <input type="hidden" name="_redirect" value="https://nxne.vercel.app/thankyou"/>
-          <input type="hidden" name="_email.from" value={name} />
+          {/* <input type="hidden" name="_redirect" value="https://nxne.vercel.app/thankyou"/> */}
+          {/* <input type="hidden" name="_email.from" value={name} /> */}
           <input type="hidden" name="form-name" value="enquiryForm" />
           <input id="tourtitle" name="tourtitle" type="hidden" value={title} />
           <div className="row">
