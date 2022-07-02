@@ -28,11 +28,9 @@ export default function EnquiryForm({ title }) {
     if (form.checkValidity() === false) {
       e.preventDefault();
       e.stopPropagation();
-    } else {
-      await submit({ name, email, title, message });
-      router.push("/thankyou"); 
-    }
+    } 
     setValidated(true);
+    await submit({ name, email, title, message });
   };
 
   return (
@@ -43,6 +41,7 @@ export default function EnquiryForm({ title }) {
           noValidate
           validated={validated}
           onSubmit={onSubmit}
+          action="/thankyou"
         >
           <input
             type="checkbox"

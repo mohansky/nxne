@@ -23,11 +23,9 @@ export default function ContactForm() {
     if (form.checkValidity() === false) {
       e.preventDefault();
       e.stopPropagation();
-    } else {
-      await submit({ name, email, subject, message });
-      router.push("/thankyou"); 
     }
     setValidated(true);
+    await submit({ name, email, subject, message });
   };
 
   return (
@@ -38,6 +36,7 @@ export default function ContactForm() {
           noValidate
           validated={validated}
           onSubmit={onSubmit}
+          action="/thankyou"
         >
           <div className="col-lg-12">
             <h3 className="mb-4">Get in touch</h3>
