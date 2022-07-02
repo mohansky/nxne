@@ -28,10 +28,9 @@ export default function EnquiryForm({ title }) {
     if (form.checkValidity() === false) {
       e.preventDefault();
       e.stopPropagation();
-    } else if (form.checkValidity() === true) {
+    } else {
       await submit({ name, email, title, message });
-      router.push("/thankyou");
-      console.log(router.asPath);
+      router.push("/thankyou"); 
     }
     setValidated(true);
   };
