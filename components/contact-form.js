@@ -1,13 +1,15 @@
 import React, { useState } from "react";
-import { Col, Row, Form, Button } from "react-bootstrap";
+import { Col, Row, Form, Button, InputGroup } from "react-bootstrap";
 import { useFormspark } from "@formspark/use-formspark";
-import {useRouter} from 'next/router'
+import { useRouter } from "next/router";
+import { motion, useAnimation } from "framer-motion";
 
 const FORMSPARK_FORM_ID = "12lwBpSd";
 
 export default function ContactForm() {
-  const router = useRouter()
-const [submit, submitting] = useFormspark({
+  const [validated, setValidated] = useState(false);
+  const router = useRouter();
+  const [submit, submitting] = useFormspark({
     formId: FORMSPARK_FORM_ID,
   });
 
@@ -15,82 +17,118 @@ const [submit, submitting] = useFormspark({
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
- 
+
   const onSubmit = async (e) => {
-    e.preventDefault();
-    await submit({ name, email, subject, message });
-    router.push("/thankyou")
+    const form = e.currentTarget;
+    if (form.checkValidity() === false) {
+      e.preventDefault();
+      e.stopPropagation();
+    } else if (form.checkValidity() === true) {
+      await submit({ name, email, subject, message });
+      router.push("/thankyou");
+      console.log(router.asPath);
+    }
+    setValidated(true);
   };
-  
+
   return (
     <>
-        <div className="p-5 rounded box-shadow">
-            <Form
-              name="contact" 
-              onSubmit={onSubmit}
-            >
-              <div className="col-lg-12">
-                <h3 className="mb-4">Get in touch</h3>
-              </div>
-              <input
-              type="checkbox"
-              name="_honeypot"
-              style={{display: 'none'}}
-              tabIndex="-1"
-              autoComplete="off"
-            />
-            <input type="hidden" name="_email.from" value={name} />
-              <Row>
-                <Col sm={6}>
-                  <Form.Group className="mb-3" controlId="formName">
-                    <Form.Control
-                      type="text"
-                      name="name"
-                      placeholder="Name"
-                      value={name} onChange={(e) => setName(e.target.value)}
-                      required
-                    />
-                  </Form.Group>
-                </Col>
-                <Col sm={6}>
-                  <Form.Group className="mb-3" controlId="formEmail">
-                    <Form.Control
-                      type="email"
-                      name="email"
-                      placeholder="Email"
-                      value={email} onChange={(e) => setEmail(e.target.value)}
-                      required
-                    />
-                  </Form.Group>
-                </Col>
-              </Row>
-              <Form.Group className="mb-3" controlId="formSubject">
-                <Form.Control
-                  type="text"
-                  name="subject"
-                  placeholder="Subject"
-                  value={subject} onChange={(e) => setSubject(e.target.value)}
-                  required
-                />
+      <div className="p-5 rounded box-shadow">
+        <Form
+          name="contact"
+          noValidate
+          validated={validated}
+          onSubmit={onSubmit}
+        >
+          <div className="col-lg-12">
+            <h3 className="mb-4">Get in touch</h3>
+          </div>
+          <input
+            type="checkbox"
+            name="_honeypot"
+            style={{ display: "none" }}
+            tabIndex="-1"
+            autoComplete="off"
+          />
+          <input type="hidden" name="_email.from" value={name} />
+          <Row>
+            <Col sm={6}>
+              <Form.Group className="mb-3" controlId="formName">
+                <InputGroup hasValidation>
+                  <Form.Control
+                    type="text"
+                    name="name"
+                    placeholder="Name"
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
+                    required
+                  />
+                  <Form.Control.Feedback type="invalid">
+                    Please enter your Name.
+                  </Form.Control.Feedback>
+                </InputGroup>
               </Form.Group>
+            </Col>
+            <Col sm={6}>
+              <Form.Group className="mb-3" controlId="formEmail">
+                <InputGroup hasValidation>
+                  <Form.Control
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    required
+                  />
+                  <Form.Control.Feedback type="invalid">
+                    Please enter a valid Email.
+                  </Form.Control.Feedback>
+                </InputGroup>
+              </Form.Group>
+            </Col>
+          </Row>
+          <Form.Group className="mb-3" controlId="formSubject">
+            <InputGroup hasValidation>
+              <Form.Control
+                type="text"
+                name="subject"
+                placeholder="Subject"
+                value={subject}
+                onChange={(e) => setSubject(e.target.value)}
+                required
+              />
+              <Form.Control.Feedback type="invalid">
+                Please enter a subject.
+              </Form.Control.Feedback>
+            </InputGroup>
+          </Form.Group>
 
-              <Form.Group className="mb-3" controlId="formTextarea">
-                <Form.Control
-                  as="textarea"
-                  name="textarea"
-                  placeholder="Message"
-                  value={message} onChange={(e) => setMessage(e.target.value)}
-                  required
-                  rows={4}
-                />
-              </Form.Group>
-              <div className="d-grid">
-                <Button variant="primary" type="submit" disabled={submitting}>
-                  Submit
-                </Button>
-              </div>
-            </Form>
-        </div>
+          <Form.Group className="mb-3" controlId="formTextarea">
+            <InputGroup hasValidation>
+              <Form.Control
+                as="textarea"
+                name="textarea"
+                placeholder="Message"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+                required
+                rows={4}
+              />
+              <Form.Control.Feedback type="invalid">
+                Please enter your message.
+              </Form.Control.Feedback>
+            </InputGroup>
+          </Form.Group>
+          <motion.div
+            className="text-center"
+            whileTap={{ scale: 0.9, opacity: 0.5 }}
+          >
+            <Button variant="primary" type="submit" disabled={submitting}>
+              Submit
+            </Button>
+          </motion.div>
+        </Form>
+      </div>
     </>
   );
 }

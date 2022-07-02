@@ -40,7 +40,7 @@ export default function TourTypes( ) {
               {Tourtypedata.tourtype.map((item, index) => (
                 <div  className="col-lg-4 col-sm-6 mb-4" key={index}>
                   <motion.div  animate={animation} 
-                    className="card border-1 rounded-0 text-center"
+                    className="card border-1 shadow-sm text-center"
                     >
                     <h3 className="card-title py-3">{item.title}</h3>
                     <div className="card-img-wrapper">
