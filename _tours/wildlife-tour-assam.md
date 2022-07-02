@@ -93,7 +93,14 @@ faq:
     text : As far as possible we would prefer local fare when it comes to meals, however we understand the need for comfort food when multiple days of intense exertion is required. Nutritious and palatable foot is always freshly cooked with fresh local ingredients. We provide potable packaged water which we carry in large 20lt cans so as keep plastic to the minimum. Reusable water bottles are provided at the onset of each journey.
 
 galleryimages:
-  - "/images/tours/cycle-tour-of-assam.jpg"
+  - "/images/tours/gallery/wildlife-tour-assam/wildlife-tour-assam.jpg"
+  - "/images/tours/gallery/wildlife-tour-assam/wildlife-tour-assam1.jpg"
+  - "/images/tours/gallery/wildlife-tour-assam/wildlife-tour-assam3.jpg"
+  - "/images/tours/gallery/wildlife-tour-assam/wildlife-tour-assam4.jpg"
+  - "/images/tours/gallery/wildlife-tour-assam/wildlife-tour-assam5.jpg"
+  - "/images/tours/gallery/wildlife-tour-assam/wildlife-tour-assam6.jpg"
+  - "/images/tours/gallery/wildlife-tour-assam/wildlife-tour-assam7.jpg"
+
 
 othertours:
 - title: CULTURE TOUR OF ARUNACHAL PRADESH & ASSAM Monyul & Brahmaputa Valley 
@@ -107,6 +114,6 @@ othertours:
   image: /images/tours/culture-tour-eastern-arunachal-pradesh.jpg    
 ---
 
-#### Wildlife Tour of Assam: Jewels of the east
+#### Wildlife Tour of Assam: Jewels of the East
 
 Brahmaputra valley of Assam, is the geographical heart of northeastern India. This region lying perched between Himalayan and Indo-Burmese biodiversity hotspots hosts a string of wildlife parks, home to several threatened mammal species, including the tiger, Asian elephant, greater one-horned rhinoceros, swamp deer , gaur , clouded leopard , hispid hare, pygmy hog, capped leaf monkey , Asiatic black bear, sloth bear and the Gangetic river dolphins among others . This wildlife tour of the Brahmaputra valley takes you to some of the better known wildlife sanctuaries along the Mighty Brahmaputra, indulging in Elephant back, Jeep, Walking and Boat safaris.

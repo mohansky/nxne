@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "CYCLE TOUR OF WESTERN ARUNACHAL PRADESH"
+title: "CYCLING IN WESTERN ARUNACHAL"
 subtitle: "The Himalayan High"
 days: "9 to 15 days"
 description : "This Cycling holiday takes you riding along the Bhutan and Tibet borders of western Arunachal Pradesh"

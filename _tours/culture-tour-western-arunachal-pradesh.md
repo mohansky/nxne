@@ -78,7 +78,7 @@ inclusions:
  - FA Kit
  - Activities as mentioned in itinerary
 
-accommodation:  Tea Bungalows, Eco Lodges & Camping
+accommodation: Tea Bungalows, Eco Lodges & Camping
 meals: All meals
 refreshments: High energy snacks and Water during throughout
 

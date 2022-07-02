@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "CYCLE TOUR OF EASTERN ARUNACHAL PRADESH"
+title: "CYCLING IN EASTERN ARUNACHAL"
 subtitle: "Watershed of the Brahmaputra"
 days: "6 to 12 days"
 description : "The Cycle tour of Eastern Arunachal Pradesh, takes you riding across the watershed of the Mighty Brahmaputra Valley"
@@ -10,7 +10,7 @@ type : "cycling"
 category: "active"
 cat: "Easy to Moderate"
 tags: ["arunachal", "cycling"]
-weight: 4
+weight: 2
 touricon: "iconoir:cycling"
 
 # overview
