@@ -23,10 +23,13 @@ export default function ContactForm() {
     if (form.checkValidity() === false) {
       e.preventDefault();
       e.stopPropagation();
+      console.log('invalid')
     }
     else{
       setValidated(true);
+      e.preventDefault();
       await submit({ name, email, subject, message});
+      console.log('valid')
     } 
   };
 
@@ -49,7 +52,7 @@ export default function ContactForm() {
             tabIndex="-1"
             autoComplete="off"
           />
-          <input type="hidden" name="_redirect" value="/thankyou"/>
+          <input type="hidden" name="_redirect" value="https://nxne.vercel.app/thankyou"/>
           <input type="hidden" name="_email.from" value={name} />
           <Row>
             <Col sm={6}>
