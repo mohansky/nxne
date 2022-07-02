@@ -18,15 +18,18 @@
           "children": [
             {
               "name": "About Us",
-              "URL": "/about-us"
+              "URL": "/about-us",
+              "order": 1
             },
             {
               "name": "Team",
-              "URL": "/about-us/team"
+              "URL": "/about-us/team",
+              "order": 2
             },
             {
               "name": "Insights",
-              "URL": "/about-us/insights"
+              "URL": "/about-us/insights",
+              "order": 3
             }
           ]
         },
@@ -44,7 +47,7 @@
         },
         {
           "name": "Insights",
-          "URL": "/insights",
+          "URL": "/about-us/insights",
           "weight": 2
         }
       ]
