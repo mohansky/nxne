@@ -3,6 +3,7 @@ import Image from "next/image";
 import { imgblurDataURL } from "../../lib/constants";
 import { Button } from "react-bootstrap";
 import { Icon } from "@iconify/react";
+import { motion, useAnimation } from "framer-motion";
 
 export default function TourCard({
   title,
@@ -14,8 +15,7 @@ export default function TourCard({
   touricon, 
 }) {
   return (
-    <>
-      <div className="col-xl-6 col-lg-12">
+    <> 
         <div className="card mb-3 p-0 border-0 rounded-0 shadow-sm bg-gray">
           <div className="row g-0">
             <div className="col-md-7">
@@ -62,7 +62,7 @@ export default function TourCard({
                   </a>
                 </Link>
               </div>
-              <div className="card-footer bg-transparent border-0 ">
+              <motion.div className="card-footer bg-transparent border-0 " whileTap={{ scale: 0.9, opacity: 0.5 }}>
                 <Link href={`/tours/${slug}`}>
                   <a>
                     <Button className="my-auto" variant="btn btn-card ">
@@ -70,11 +70,10 @@ export default function TourCard({
                     </Button>
                   </a>
                 </Link>
-              </div>
+              </motion.div>
             </div>
           </div>
-        </div>
-      </div>
+        </div> 
     </>
   );
 }
