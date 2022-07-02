@@ -29,8 +29,10 @@ export default function EnquiryForm({ title }) {
       e.preventDefault();
       e.stopPropagation();
     } 
-    setValidated(true);
-    await submit({ name, email, title, message });
+    else{
+      setValidated(true);
+      await submit({ name, email, title, message });
+    }
   };
 
   return (

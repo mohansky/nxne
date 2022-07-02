@@ -24,8 +24,10 @@ export default function ContactForm() {
       e.preventDefault();
       e.stopPropagation();
     }
-    setValidated(true);
-    await submit({ name, email, subject, message });
+    else{
+      setValidated(true);
+      await submit({ name, email, subject, message});
+    } 
   };
 
   return (
