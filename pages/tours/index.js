@@ -177,9 +177,9 @@ export default function TourIndex({ allTours }) {
         </div>
         </div>
       </Container>
-      <Container className="mt-5">
+      <div className="container-xxl container-fluid mt-5">
         <TourItem tours={filteredList} />
-      </Container>
+      </div>
     </>
   );
 }

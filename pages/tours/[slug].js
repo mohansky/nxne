@@ -64,7 +64,7 @@ export default function Tour({ tour }) {
               </div>
               <div className="row">
                 <aside className="col-lg-4">
-                  <div className="p-3 rounded border mb-50">
+                  <div className="p-3 rounded border shadow-sm mb-50">
                     <h4 className="text-color mb-20">Tour Overview</h4>
                     {tour.overview ? (
                       <TourOverview overview={tour.overview} />
