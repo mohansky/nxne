@@ -33,6 +33,7 @@ export default function EnquiryForm({ title }) {
     else{
       e.preventDefault();
       await submit({ name, email, title, message });
+      router.push("/thankyou")
       console.log('valid')
     }
     setValidated(true);

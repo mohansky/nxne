@@ -28,6 +28,7 @@ export default function ContactForm() {
     else{
       e.preventDefault();
       await submit({ name, email, subject, message});
+      router.push("/thankyou")
       console.log('valid')
     } 
     setValidated(true);
