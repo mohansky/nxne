@@ -35,8 +35,7 @@ export default function ContactForm() {
           name="contact"
           noValidate
           validated={validated}
-          onSubmit={onSubmit}
-          action="/thankyou"
+          onSubmit={onSubmit} 
         >
           <div className="col-lg-12">
             <h3 className="mb-4">Get in touch</h3>
@@ -48,6 +47,7 @@ export default function ContactForm() {
             tabIndex="-1"
             autoComplete="off"
           />
+          <input type="hidden" name="_redirect" value="/thankyou"/>
           <input type="hidden" name="_email.from" value={name} />
           <Row>
             <Col sm={6}>

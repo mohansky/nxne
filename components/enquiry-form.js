@@ -40,8 +40,7 @@ export default function EnquiryForm({ title }) {
           name="enquiryForm"
           noValidate
           validated={validated}
-          onSubmit={onSubmit}
-          action="/thankyou"
+          onSubmit={onSubmit} 
         >
           <input
             type="checkbox"
@@ -50,6 +49,7 @@ export default function EnquiryForm({ title }) {
             tabIndex="-1"
             autocomplete="off"
           />
+          <input type="hidden" name="_redirect" value="/thankyou"/>
           <input type="hidden" name="_email.from" value={name} />
           <input type="hidden" name="form-name" value="enquiryForm" />
           <input id="tourtitle" name="tourtitle" type="hidden" value={title} />
