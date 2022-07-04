@@ -49,7 +49,6 @@ export default function Contact() {
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
-              <h2 className="section-title">Contact Us</h2>
               <Contacts/>
             </div>
             <motion.div className="col-lg-6" >
