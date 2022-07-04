@@ -6,7 +6,7 @@ import { useInView } from "react-intersection-observer";
 
 export default function Contacts() {
     const { ref, inView } = useInView({
-        threshold: 0.1,
+        threshold: 0.3,
       });
     
       const animation = useAnimation();
@@ -27,7 +27,7 @@ export default function Contacts() {
             opacity: "1",
             transition: {
               type: "tween",
-              duration: 1,
+              duration: 2,
               bounce: 0.3,
             },
           });
@@ -39,7 +39,9 @@ export default function Contacts() {
       }, [inView]);
   return (
     <>
-      <motion.ul ref={ref} animate={animation} className="ps-0">
+    <div ref={ref}>
+    <motion.h2 animate={anime} className="section-title">Contact Us</motion.h2>
+      <motion.ul animate={animation} className="ps-0">
         {Contactdata.contact.map((item, index) => (
           <li className="d-flex mb-30" key={index}>
             <div className="round-icon me-3">
@@ -60,6 +62,7 @@ export default function Contacts() {
           </li>
         ))}
       </motion.ul>
+      </div>
     </>
   );
 }

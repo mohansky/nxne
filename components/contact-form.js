@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Col, Row, Form, Button, InputGroup } from "react-bootstrap";
 import { useFormspark } from "@formspark/use-formspark";
-import { useRouter } from "next/router";
-import { motion } from "framer-motion";
+import { useRouter } from "next/router"; 
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from 'react-intersection-observer';
 
 const FORMSPARK_FORM_ID = "12lwBpSd";
 
@@ -32,9 +33,28 @@ export default function ContactForm() {
     setValidated(true);
   };
 
+  const { ref, inView, entry } = useInView({threshold: 0.3});
+  const animation = useAnimation();
+
+  useEffect(()=>{
+    if(inView){
+      animation.start({
+        opacity: 1,
+        transition: {
+          type: 'spring',
+          duration: 2,  
+        }
+      });
+    }
+      if(!inView){
+        animation.start({opacity: 0}) 
+      }
+  }, [inView]);
+
   return (
     <>
-      <div className="p-5 rounded box-shadow">
+      <div ref={ref} >
+        <motion.div className="p-5 rounded shadow" animate={animation} >
         <Form
           name="contact"
           noValidate
@@ -130,6 +150,7 @@ export default function ContactForm() {
             </Button>
           </motion.div>
         </Form>
+        </motion.div>
       </div>
     </>
   );
