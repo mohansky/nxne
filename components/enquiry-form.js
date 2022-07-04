@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Form, Button, InputGroup } from "react-bootstrap";
 import { useFormspark } from "@formspark/use-formspark";
 import { useRouter } from "next/router";
-import { motion, useAnimation } from "framer-motion";
+import { motion } from "framer-motion";
 
 const FORMSPARK_FORM_ID = "ffYSFxYG";
 
@@ -17,24 +17,16 @@ export default function EnquiryForm({ title }) {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  // const onSubmit = async (e) => {
-  //   e.preventDefault();
-  //   await submit({ name, email, title, message });
-  //   router.push("/thankyou")
-  // };
-
   const onSubmit = async (e) => {
     const form = e.currentTarget;
     if (form.checkValidity() === false) {
       e.preventDefault();
       e.stopPropagation();
-      console.log('invalid')
     } 
     else{
       e.preventDefault();
       await submit({ name, email, title, message });
       router.push("/thankyou")
-      console.log('valid')
     }
     setValidated(true);
   };

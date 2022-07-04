@@ -39,9 +39,9 @@ export default function CTA() {
           objectFit="cover"
           objectPosition="center"
         />
-        <div ref={ref} className="container d-flex justify-content-end align-self-center">
+        <div ref={ref} className="container d-flex justify-content-end align-self-center" >
           <Link href="/contact">
-            <motion.button animate={animation} className="btn btn-light text-uppercase cta-btn">
+            <motion.button animate={animation} className="btn btn-light text-uppercase cta-btn" whileTap={{scale: 0.9}}>
               get in touch
             </motion.button>
           </Link>

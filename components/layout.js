@@ -20,8 +20,7 @@ export default function Layout({ children }) {
   if (isRootPath) {
     header = (
       <> 
-        <HeroSliderMain />
-        {/* <HeroSliderFramer/> */}
+        <HeroSliderMain /> 
       </>
     );
   } 

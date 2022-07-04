@@ -47,12 +47,14 @@ export default function About() {
                 </h3>
                 <p className="text-justify text-white mb-40">
                   {Aboutdata.about.text} 
-                </p> 
+                </p>
+                <motion.div className="text-center mt-5" whileTap={{scale: 0.9}}>
                 <Link href={Aboutdata.about.btnlink} >
                 <a className="btn btn-primary mt-2">
                   {Aboutdata.about.btntext}
                 </a>
                 </Link>
+                </motion.div>
               </motion.div>
             </div>
           </div>

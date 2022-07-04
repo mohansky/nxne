@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Col, Row, Form, Button, InputGroup } from "react-bootstrap";
 import { useFormspark } from "@formspark/use-formspark";
 import { useRouter } from "next/router";
-import { motion, useAnimation } from "framer-motion";
+import { motion } from "framer-motion";
 
 const FORMSPARK_FORM_ID = "12lwBpSd";
 
@@ -23,13 +23,11 @@ export default function ContactForm() {
     if (form.checkValidity() === false) {
       e.preventDefault();
       e.stopPropagation();
-      console.log('invalid')
     }
     else{
       e.preventDefault();
       await submit({ name, email, subject, message});
       router.push("/thankyou")
-      console.log('valid')
     } 
     setValidated(true);
   };

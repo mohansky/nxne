@@ -1,14 +1,10 @@
-import { EXAMPLE_PATH } from "../lib/constants";
 import Footerdata from "../data/footer.json";
 import Menuitems from "../data/menu.json";
-import Sociallinks from "../data/social.json";
-import Link from "next/link";
 import Image from "next/image";
 import { imgblurDataURL } from "../lib/constants";
 import { Nav } from "react-bootstrap";
 import { useRouter } from "next/router";
 import { Icon } from '@iconify/react';
-import Contactdata from "../data/contact.json";
 
 export default function Footer() {
   const router = useRouter();
@@ -35,7 +31,7 @@ export default function Footer() {
                 </p>
 
                 <ul className="list-inline">
-                  {Sociallinks.social.map((item, index) => (
+                  {Footerdata.footer.social.map((item, index) => (
                     <li className="list-inline-item" key={index}>
                       <a
                         href={item.link}
@@ -88,9 +84,9 @@ export default function Footer() {
                   {Footerdata.footer.copyright} |
                   <a
                     className="text-white text-center ms-1"
-                    href={Contactdata.email.link}
+                    href={Footerdata.footer.email.link}
                   >
-                    {Contactdata.email.name}
+                    {Footerdata.footer.email.name}
                   </a>
                 </p>
               </div>

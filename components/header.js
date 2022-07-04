@@ -4,6 +4,7 @@ import Image from "next/image";
 import { imgblurDataURL } from "../lib/constants";
 import { Navbar, NavDropdown, Container, Nav } from "react-bootstrap";
 import Menuitems from "../data/menu.json";
+import { motion } from "framer-motion"
 
 export default function Header() {
   const [expanded, setExpanded] = useState(false);
@@ -19,6 +20,11 @@ export default function Header() {
       <Container>
         <Link href="/">
           <Navbar.Brand className="pt-1 pb-0">
+            <motion.div
+              initial={{ scale: 0 }}
+              animate={{ scale: 1 }}
+              transition={{ type:"spring", ease: "easeOut", duration: 0.5, delay: 0.5 }}
+            >
             <Image
               className="img-fluid"
               src="/images/logo.svg"
@@ -29,6 +35,7 @@ export default function Header() {
               height="69"
               alt="North by Northeast Journeys"
             />
+            </motion.div>
           </Navbar.Brand>
         </Link>
         <Navbar.Toggle
@@ -43,14 +50,32 @@ export default function Header() {
           <Nav className="mx-5">
             <ul className="navbar-nav">
               {Menuitems.menu.mainmenu.map((item, index) => {
-                if (item.children) {
+                if (!item.children)
                   return (
-                    <NavDropdown className="text-uppercase" title={item.name} id="basic-nav-dropdown">
+                    <li className="nav-item text-uppercase text-center" key={index}>
+                      <Link href={item.URL}>
+                        <a
+                          className="nav-link"
+                          onClick={() => setExpanded(false)}
+                        >
+                          {item.name}
+                        </a>
+                      </Link>
+                    </li>
+                  );
+                {
+                  return (
+                    <NavDropdown
+                      className="text-uppercase text-center"
+                      title={item.name}
+                      id="basic-nav-dropdown"
+                      key={index}
+                    >
                       {item.children.map((item, index) => (
                         <li key={index}>
                           <Link href={item.URL}>
                             <a
-                              className="dropdown-item text-uppercase"
+                              className="dropdown-item text-uppercase text-center"
                               onClick={() => setExpanded(false)}
                             >
                               {item.name}
@@ -61,18 +86,6 @@ export default function Header() {
                     </NavDropdown>
                   );
                 }
-                return (
-                  <li className="nav-item text-uppercase" key={index}>
-                    <Link href={item.URL}>
-                      <a
-                        className="nav-link"
-                        onClick={() => setExpanded(false)}
-                      > 
-                        {item.name}
-                      </a>
-                    </Link>
-                  </li>
-                );
               })}
             </ul>
           </Nav>

@@ -10,8 +10,7 @@ export default function MissionAccordion() {
   const animation = useAnimation();
   const anime = useAnimation(); 
 
-  useEffect(()=>{
-    console.log("use effect", inView, entry );
+  useEffect(()=>{ 
     if(inView){
       animation.start({
         opacity: 1,

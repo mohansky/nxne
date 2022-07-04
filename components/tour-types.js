@@ -11,7 +11,6 @@ export default function TourTypes( ) {
   const animation = useAnimation();
 
   useEffect(()=>{
-    console.log("use effect", inView, entry );
     if(inView){
       animation.start({
         opacity: 1,
@@ -65,11 +64,11 @@ export default function TourTypes( ) {
                 </div>
               ))}
             </div>
-            <div className="text-center mt-5">
+            <motion.div className="text-center mt-5" whileTap={{scale: 0.9}}>
               <Link href={Tourtypedata.btnlink}>
                 <a className="btn btn-primary mt-2">{Tourtypedata.btntext}</a>
               </Link>
-            </div>
+            </motion.div>
           </div>
         </div>
       </section>

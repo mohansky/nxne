@@ -39,7 +39,7 @@ export default function HeroSliderMain() {
         onClick={onClick}
         aria-label="next"
       > 
-        <Icon icon="bi:arrow-right" width="30" height="30" aria-label="next" />
+        <Icon icon="bi:arrow-right" width="30" height="30" />
       </motion.button>
     );
   }
@@ -54,7 +54,7 @@ export default function HeroSliderMain() {
         onClick={onClick}
         aria-label="previous"
       >
-        <Icon icon="bi:arrow-left" width="30" height="30" aria-label="previous"/>
+        <Icon icon="bi:arrow-left" width="30" height="30"/>
       </motion.button>
     );
   }
