@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { imgblurDataURL } from "../lib/constants";
 import { Navbar, NavDropdown, Container, Nav } from "react-bootstrap";
+// import NavDropdown from 'react-bootstrap/NavDropdown'
 import Menuitems from "../data/menu.json";
 import { motion } from "framer-motion"
 
@@ -69,7 +70,7 @@ export default function Header() {
                       className="text-uppercase text-center"
                       title={item.name}
                       id="basic-nav-dropdown"
-                      key={index}
+                      key={index} 
                     >
                       {item.children.map((item, index) => (
                         <li key={index}>

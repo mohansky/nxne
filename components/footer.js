@@ -2,9 +2,9 @@ import Footerdata from "../data/footer.json";
 import Menuitems from "../data/menu.json";
 import Image from "next/image";
 import { imgblurDataURL } from "../lib/constants";
-import { Nav } from "react-bootstrap";
 import { useRouter } from "next/router";
 import { Icon } from '@iconify/react';
+import MailingList from "./mailinglist";
 
 export default function Footer() {
   const router = useRouter();
@@ -21,15 +21,14 @@ export default function Footer() {
                   src="/images/logo.svg"
                   layout='fixed'
                   placeholder="blur"
-                  blurDataURL={ imgblurDataURL }
+                  blurDataURL={imgblurDataURL}
                   alt="logo"
                   width="200"
                   height="136"
                 />
-                <p className="mt-3 text-white mb-30">
+                <p className="mt-3 text-white mb-5 pe-5">
                   {Footerdata.footer.content}
-                </p>
-
+                </p> 
                 <ul className="list-inline">
                   {Footerdata.footer.social.map((item, index) => (
                     <li className="list-inline-item" key={index}>
@@ -46,7 +45,6 @@ export default function Footer() {
                 </ul>
               </div>
             </div>
-
             <div className="col-lg-2 col-md-3">
               <h6 className="text-white mb-4">Important Links</h6>
               <ul className="footer-links">
@@ -59,6 +57,7 @@ export default function Footer() {
                   </li>
                 ))}
               </ul>
+              <hr/>
             </div>
             <div className="col-lg-2 col-md-3">
               <h6 className="text-white mb-4">Quick Links</h6>
@@ -72,10 +71,15 @@ export default function Footer() {
                   </li>
                 ))}
               </ul>
+              <hr/>
+            </div>
+            <div className="col-lg-2 col-md-6 ">
+              <h6 className="text-white mb-4">Join our mailing list</h6>
+              <MailingList/>
+              <hr/>
             </div>
           </div>
         </div>
-
         <div className="pt-4 pb-3 position-relative">
           <div className="container">
             <div className="row">
@@ -91,22 +95,6 @@ export default function Footer() {
                 </p>
               </div>
               <div className="col-lg-6 col-md-7">
-                {/* <Nav className="mx-5">
-                  <ul className="list-inline text-center text-md-right">
-                    {Menuitems.menu.footer.map((item, index) => (
-                      <li
-                        className="list-inline-item mx-lg-3 my-lg-0 mx-2 my-2"
-                        key={index}
-                      >
-                        <Link href={item.URL}>
-                          <a className="font-secondary text-white">
-                            {item.name}
-                          </a>
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </Nav> */}
               </div>
             </div>
           </div>

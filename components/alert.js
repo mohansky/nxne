@@ -5,7 +5,7 @@ import Alertdata from "../data/alert.json";
 export default function Alert() {
   return (
     <div className="alert bg-dark d-flex justify-content-end text-light rounded-0  py-2 px-2">
-      <Nav className="mx-5">
+      <Nav className="mx-0">
         <ul className="list-inline text-center text-md-right my-1">
         {Alertdata.contact.map((item, index) => (
          <li className={item.class} key={index}>

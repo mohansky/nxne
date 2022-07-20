@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { imgblurDataURL } from "../../lib/constants";
-import { Button } from "react-bootstrap";
+import Button from 'react-bootstrap/Button';
 import { Icon } from "@iconify/react";
 import { motion, useAnimation } from "framer-motion";
 
@@ -65,8 +65,9 @@ export default function TourCard({
               <motion.div className="card-footer bg-transparent border-0 " whileTap={{ scale: 0.9, opacity: 0.5 }}>
                 <Link href={`/tours/${slug}`}>
                   <a>
-                    <Button className="my-auto" variant="btn btn-card ">
-                      Tour Details
+                    <Button className="my-auto" variant="btn btn-card "> 
+                    {/* smaller and thicker */}
+                        Tour Details  
                     </Button>
                   </a>
                 </Link>
