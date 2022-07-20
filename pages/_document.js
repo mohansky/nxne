@@ -20,14 +20,15 @@ export default class MyDocument extends Document {
           `,
             }}
           /> */}
-          <meta charset="UTF-8" />
-          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta charSet="UTF-8" />
+          <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
          
           <link
             rel="preconnect"
-            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
             crossOrigin="true"
           />
+          {/* <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap" rel="stylesheet">  */}
           <link rel="shortcut icon" href="/images/logo.png" />
 
 

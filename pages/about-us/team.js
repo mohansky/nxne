@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import { CMS_NAME, imgblurDataURL, EXAMPLE_PATH,  HOME_OG_IMAGE_URL } from "../../lib/constants";
+import { CMS_NAME, imgblurDataURL } from "../../lib/constants";
 import Image from "next/image";
 import Teamdata from "../../data/team.json";
 import { Icon } from "@iconify/react";

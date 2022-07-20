@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import { CMS_NAME, imgblurDataURL, EXAMPLE_PATH,  HOME_OG_IMAGE_URL } from "../../lib/constants";
+import { CMS_NAME, imgblurDataURL } from "../../lib/constants";
 import Image from "next/image";
 import Aboutusdata from "../../data/aboutus.json";
 import { Icon } from "@iconify/react";
@@ -41,7 +41,7 @@ export default function Aboutus() {
               <Image
                 src={Aboutusdata.visionimg}
                 placeholder="blur"
-                blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mPsqQcAAZ0BDTSBuAQAAAAASUVORK5CYII="
+                blurDataURL={imgblurDataURL} 
                 alt={Aboutusdata.visiontitle}
                 width={300}
                 height={300}

@@ -82,33 +82,33 @@ export default function Tour({ tour }) {
                 id="uncontrolled-tab-example"
                 className="my-5"
               >
+                {tour.overs ?
                 <Tab eventKey="overview" title="Overview">
                   <h5 className="mb-5">Overview</h5>
-                  {tour.overs ? <TouroversList overs={tour.overs} /> : null}
+                   <TouroversList overs={tour.overs} /> 
                 </Tab>
+                : null}
+                {tour.highlights ? (
                 <Tab eventKey="highlights" title="Highlights">
                   <h5 className="mb-5">Highlights</h5>
-                  {tour.highlights ? (
-                    <TourdataList datalist={tour.highlights} />
-                  ) : null}
-                </Tab>
+                    <TourdataList datalist={tour.highlights} />    
+                </Tab>) : null}
+                {tour.inclusions ? (
                 <Tab eventKey="inclusions" title="Inclusions">
                   <h5 className="mb-5">Inclusions</h5>
-                  {tour.inclusions ? (
                     <TourdataList datalist={tour.inclusions} />
-                  ) : null}
                 </Tab>
+                ) : null}
+                {tour.meals || tour.accommodation || tour.refreshments ? (
                 <Tab eventKey="accommodation" title="Accomodation">
                   <h5 className="mb-5">Accomodation</h5>
-
-                  {tour.meals || tour.accommodation || tour.refreshments ? (
                     <TouraccoList
                       meals={tour.meals}
                       accommodation={tour.accommodation}
                       refreshments={tour.refreshments}
                     />
-                  ) : null}
                 </Tab>
+                 ) : null}
                 <Tab eventKey="gallery" title="Gallery">
                   <h5 className="mb-5">Gallery</h5> 
                     <TourGallery
@@ -116,17 +116,21 @@ export default function Tour({ tour }) {
                       subtitle={tour.subtitle}
                     /> 
                 </Tab>
+                {tour.title ? 
                 <Tab eventKey="enquire" title="Enquire">
                   <h5 className="mb-5">Enquire</h5>
-                  {tour.title ? <EnquiryForm title={tour.title} /> : null}
+                  <EnquiryForm title={tour.title} /> 
                 </Tab>
+                : null} 
               </Tabs>
               <SectionSeparator />
+              {tour.faq ? 
               <div className="mt-5">
                 <h5>FAQ</h5>
-                {tour.faq ? <TourFaq faq={tour.faq} /> : null}
-              </div>
-              <SectionSeparator />
+                 <TourFaq faq={tour.faq} />
+                 <SectionSeparator />
+              </div> 
+              : null}
               <div className="my-5">
                 <h6 className="text-danger fw-light text-center">
                   * Our Itineraries are quite unique hence we prefer not to put

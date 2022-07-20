@@ -5,6 +5,7 @@ import { Container } from "react-bootstrap";
 import Head from "next/head";
 import { motion } from "framer-motion";
 import TourItem from "../../components/tours/tour-item";
+import CategoryFilter from "../../components/filters/cat";
 
 export default function TourIndex({ allTours }) {
   const [filteredList, setFilteredList] = useState(allTours);
@@ -60,7 +61,14 @@ export default function TourIndex({ allTours }) {
         <meta property="og:title" content={`Tours | ${CMS_NAME}`}/>
       </Head>
 
-      <Container >
+
+      <Container>
+      <CategoryFilter/>
+ 
+      </Container>
+
+
+      {/* <Container>
         <div className="tour-filters mt-5">
           <div className="mx-auto"> 
             <div id="category-options"  className=" justify-content-center mb-5" onClick={handleCategoryChange}>
@@ -175,7 +183,7 @@ export default function TourIndex({ allTours }) {
             </div>
         </div>
         </div>
-      </Container>
+      </Container> */}
       <div className="container-xxl container-fluid mt-5">
         <TourItem tours={filteredList} />
       </div>
