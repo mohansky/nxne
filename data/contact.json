@@ -1,0 +1,28 @@
+{
+  "contact": [
+    {
+      "title": "phone1",
+      "icon": "ph:device-mobile",
+      "name": "+91 994 041 6065",
+      "link": "tel:+919940416065"
+    },
+    {
+      "title": "phone2",
+      "icon": "ph:device-mobile",
+      "name": "+91 848 618 3666",
+      "link": "tel:+919940416065"
+    },
+    {
+      "title": "email",
+      "icon": "ph:envelope",
+      "name": "info.northbynortheast@gmail.com",
+      "link": "mailto:info.northbynortheast@gmail.com"
+    },
+    {
+      "title": "address",
+      "icon": "ph:map-trifold",
+      "name": "Mansiri House, Deorigaon, Tezpur, Assam, 784001",
+      "link": "Mansiri House, Deorigaon, Tezpur, Assam, 784001"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "contact": [
+    {
+      "title": "email",
+      "icon": "ph:envelope",
+      "name": "info.northbynortheast@gmail.com",
+      "link": "mailto:info.northbynortheast@gmail.com",
+      "class": "list-inline-item mx-2 my-1"
+    },
+    {
+      "title": "phone1",
+      "icon": "ph:device-mobile",
+      "name": "+91 994 041 6065",
+      "link": "tel:+919940416065",
+      "class": "list-inline-item mx-2 my-1"
+    },
+    {
+      "title": "phone2",
+      "icon": "ph:device-mobile",
+      "name": "+91 848 618 3666",
+      "link": "tel:+918486183666",
+      "class": "list-inline-item d-none d-sm-none d-md-inline mx-2 my-1"
+    }
+   ],
+  "social": [
+    {
+      "name": "facebook",
+      "icons": "bi:facebook",
+      "link": "https://www.facebook.com/northbynortheastjourneys"
+    },
+    { 
+      "name": "instagram",
+      "icons": "bi:instagram",
+      "link": "https://www.instagram.com/north_by_northeast/"
+    },
+    {
+      "name": "instagram",
+      "icons": "bi:youtube",
+      "link": "https://www.youtube.com/channel/UCoOuUJl2OclF3xM2nCKAlSA/videos"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "hero":{
+    "slides": [
+      {
+        "title": "North by Northeast Journeys",
+        "subtitle": "ACTIVE HOLIDAYS IN NORTHEAST INDIA",
+        "description": "Cycling, Treks and Walks, Multi-Activity, Motorcycle and Overland, Family Adventures, Youth Travel",
+        "animation": "fadeInDown",
+        "delay": ".4",
+        "image": "/images/hero-slider/north-by-northeast-journeys-adventure-holidays-in-northeast-india.jpg"
+      },
+      {
+        "title": "North by Northeast Journeys",
+        "subtitle": "CULTURAL IMMERSIONS IN NORTHEAST INDIA",
+        "description": "TRIBES, FESTIVALS, CRAFT, CUISINE, HISTORY",
+        "animation": "fadeInDown",
+        "delay": ".4",
+        "image": "/images/hero-slider/north-by-northeast-journeys-culture-tours-in-northeast-india.jpg"
+      }, 
+      {
+        "title": "North by Northeast Journeys",
+        "subtitle": "NATURE HOLIDAYS IN NORTHEAST INDIA",
+        "description": "WILDLIFE SAFARIS, WILDFLOWER TRAILS",
+        "animation": "fadeInDown",
+        "delay": ".4",
+        "image": "/images/hero-slider/wildlife-safari-in-northeast-india1.jpg"
+      }, 
+      {
+        "title": "North by Northeast Journeys",
+        "subtitle": "LEISURELY GETAWAYS IN NORTHEAST INDIA",
+        "description": "FAMILY GETAWAYS, QUIET OFF THE MAP ESCAPADES",
+        "animation": "fadeInDown",
+        "delay": ".4",
+        "image": "/images/hero-slider/leisure-holidays-in-northeast-india.jpg"
+      }
+    ]
+  }
+  }
