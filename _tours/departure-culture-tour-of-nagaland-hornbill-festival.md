@@ -7,7 +7,7 @@ description : "Hornbill Festival Tour, Nagaland and Assam. Culture, Cuisine and 
 bg_image: /images/tours/culture-tour-of-nagaland-hornbill-festival.jpg 
 image : /images/tours/culture-tour-of-nagaland-hornbill-festival.jpg 
 type: "culture"
-category: "culture"
+category: "departures"
 cat: "December"
 tags: ["nagaland", "assam"]
 weight: 3

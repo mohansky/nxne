@@ -104,6 +104,14 @@ faq:
 
 galleryimages:
   - "/images/tours/cycle-tour-of-assam.jpg"
+  # - "/images/tours/gallery/family-eastern-arunachal-pradesh/family-eastern-arunachal-pradesh1.jpg"
+  # - "/images/tours/gallery/family-eastern-arunachal-pradesh/family-eastern-arunachal-pradesh2.jpg"
+  # - "/images/tours/gallery/family-eastern-arunachal-pradesh/family-eastern-arunachal-pradesh3.jpg"
+  # - "/images/tours/gallery/family-eastern-arunachal-pradesh/family-eastern-arunachal-pradesh4.jpg"
+  # - "/images/tours/gallery/family-eastern-arunachal-pradesh/family-eastern-arunachal-pradesh5.jpg"
+  # - "/images/tours/gallery/family-eastern-arunachal-pradesh/family-eastern-arunachal-pradesh6.jpg"
+  # - "/images/tours/gallery/family-eastern-arunachal-pradesh/family-eastern-arunachal-pradesh7.jpg"
+  # - "/images/tours/gallery/family-eastern-arunachal-pradesh/family-eastern-arunachal-pradesh8.jpg"
 
 othertours:
 - title: Jewels of the Brahmaputra

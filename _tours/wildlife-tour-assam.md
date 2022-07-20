@@ -11,7 +11,8 @@ category: "leisure"
 cat: "Comfort"
 tags: ["assam", "wildlife"]
 weight: 3
-touricon: "iconoir:glasses"
+touricon: "ph:binoculars"
+# touricon: "icon-park-outline:elephant"
 
 # overview
 overview:

@@ -104,6 +104,14 @@ faq:
 
 galleryimages:
   - "/images/tours/cycle-tour-of-assam.jpg"
+  # - "/images/tours/gallery/family-holiday-in-meghalaya/family-holiday-in-meghalaya1.jpg"
+  # - "/images/tours/gallery/family-holiday-in-meghalaya/family-holiday-in-meghalaya2.jpg"
+  # - "/images/tours/gallery/family-holiday-in-meghalaya/family-holiday-in-meghalaya3.jpg"
+  # - "/images/tours/gallery/family-holiday-in-meghalaya/family-holiday-in-meghalaya4.jpg"
+  # - "/images/tours/gallery/family-holiday-in-meghalaya/family-holiday-in-meghalaya5.jpg"
+  # - "/images/tours/gallery/family-holiday-in-meghalaya/family-holiday-in-meghalaya6.jpg"
+  # - "/images/tours/gallery/family-holiday-in-meghalaya/family-holiday-in-meghalaya7.jpg"
+  # - "/images/tours/gallery/family-holiday-in-meghalaya/family-holiday-in-meghalaya8.jpg"
 
 
 othertours:

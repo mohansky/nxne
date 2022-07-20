@@ -101,6 +101,15 @@ faq:
  
 galleryimages:
   - "/images/tours/cycle-tour-of-assam.jpg"
+  # - "/images/tours/gallery/family-holiday-assam/family-holiday-assam1.jpg"
+  # - "/images/tours/gallery/family-holiday-assam/family-holiday-assam2.jpg"
+  # - "/images/tours/gallery/family-holiday-assam/family-holiday-assam3.jpg"
+  # - "/images/tours/gallery/family-holiday-assam/family-holiday-assam4.jpg"
+  # - "/images/tours/gallery/family-holiday-assam/family-holiday-assam5.jpg"
+  # - "/images/tours/gallery/family-holiday-assam/family-holiday-assam6.jpg"
+  # - "/images/tours/gallery/family-holiday-assam/family-holiday-assam7.jpg"
+  # - "/images/tours/gallery/family-holiday-assam/family-holiday-assam8.jpg"
+  
 
 othertours:
 - title: Natures Amusement Park 
