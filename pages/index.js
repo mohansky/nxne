@@ -6,7 +6,6 @@ import MissionAccordion from "../components/mission-accordion";
 import CTA from "../components/cta";
 import Testimonials from "../components/testimonials";
 import TourTypes from "../components/tour-types";
-import GallTest from "../components/galltest";
 
 export default function Index( ) {
    
@@ -20,7 +19,6 @@ export default function Index( ) {
       <MissionAccordion />
       <CTA />
       <Testimonials />
-      {/* <GallTest/> */}
     </>
   );
 } 
