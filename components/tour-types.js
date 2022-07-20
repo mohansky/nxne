@@ -41,7 +41,7 @@ export default function TourTypes( ) {
                   <motion.div  animate={animation} 
                     className="card border-1 shadow-sm text-center"
                     >
-                    <h5 className="card-title py-3">{item.title}</h5>
+                    <h4 className="card-title py-3">{item.title}</h4>
                     <div className="card-img-wrapper">
                       <Image
                         className="card-img-top img-fluid"

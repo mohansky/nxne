@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { imgblurDataURL } from "../../lib/constants";
-import Button from 'react-bootstrap/Button';
+import {Button} from 'react-bootstrap';
 import { Icon } from "@iconify/react";
 import { motion, useAnimation } from "framer-motion";
 
