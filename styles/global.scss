@@ -19,12 +19,16 @@
   --nne-bg-menu: hsla(0, 0%, 75%, 0.2);
   --nne-bg-primary: hsl(34, 89%, 58%);  
   --nne-bg-secondary: hsl(46, 96%, 61%); 
-  --nne-bg-gray: hsl(0, 0%, 85%); 
+  --nne-bg-gray: hsl(0, 0%, 98%); 
   --nne-bg-footer: hsl(240, 2%, 19%);
   --nne-font-primary: hsl(34, 89%, 58%);
+  --nne-font-heading-color: hsl(0, 0%, 27%);
+  --nne-font-paragraph-color: hsl(0, 0%, 13%);
   --nne-font-color: hsl(0, 0%, 40%);
   --nne-font-dark: hsl(0, 0%, 13%);
-  --nne-font-headings: "Poppins", sans-serif;
+  // --nne-font-headings: "Poppins", sans-serif;
+  // --nne-font-paragraph: "Open Sans", sans-serif;
+  --nne-font-headings: "Montserrat", sans-serif;
   --nne-font-paragraph: "Open Sans", sans-serif;
 }
 
@@ -37,7 +41,8 @@ body {
 
 .alert{
   z-index: 200;
-  min-height: 50px;
+  margin-bottom: 0 !important;
+  // min-height: 50px;
 }
 
 .preloader {
@@ -54,17 +59,17 @@ body {
   }
 
 p, .paragraph {
+  color: var(--nne-font-paragraph-color);
+  font-family: var(--nne-font-paragraph);
   font-weight: 400 !important;
-  color: rgb(32, 32, 32);
   font-size: 1rem;
-  line-height: 1.6rem;
-  font-family: var(--nne-font-paragraph); 
+  line-height: 1.6rem; 
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: rgb(70, 70, 70);
-  font-weight: 600 !important;
+  color: var(--nne-font-heading-color);
   font-family: var(--nne-font-headings); 
+  font-weight: 800 !important;
 }
 
 h1, .h1 {

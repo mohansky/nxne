@@ -1,6 +1,6 @@
 footer{
   background-color: var(--nne-bg-footer); 
-  border-top: 2px solid var(--nne-secondary) !important;
+  border-top: 0.2rem solid var(--nne-secondary) !important;
 }
 
 .footer-links {
@@ -32,4 +32,10 @@ footer{
   .footer-links li a:hover {
     text-decoration: underline;
     color: var(--nne-primary);
+  }
+
+
+  .mailinglist{
+    background-color: rgb(78, 78, 78) !important;
+    color: rgb(255, 255, 255) !important;
   }

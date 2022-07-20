@@ -11,17 +11,17 @@
   }
 }
 
-.overlay { 
-  background-color: rgba(0, 0, 0, 0.05);
-  height: 86vh;
-  width: 100%;
-  z-index: 2;
-  margin-bottom: 60px;
-  margin-top: -160px;
-  &.page {
-    height: 55vh; 
-  }
-}
+// .overlay { 
+//   background-color: rgba(0, 0, 0, 0.05);
+//   height: 86vh;
+//   width: 100%;
+//   z-index: 2;
+//   margin-bottom: 60px;
+//   margin-top: -160px;
+//   &.page {
+//     height: 55vh; 
+//   }
+// }
 
 .hero-content {
   position: absolute;
