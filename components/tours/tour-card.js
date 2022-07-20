@@ -52,7 +52,7 @@ export default function TourCard({
                           <Icon className="me-2 mb-1" icon="bytesize:flag" />
                            {days}
                         </p>
-                        <hr className="my-0 bg-nne-secondary" />
+                        <hr className="my-0 bg-warning" />
                         <p className="card-text tour-card ms-2 mb-0">
                           <Icon className="me-2 mb-1" icon="bi:speedometer2" />
                            {cat} 
