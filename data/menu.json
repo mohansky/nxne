@@ -9,7 +9,19 @@
         {
           "name": "Tours",
           "URL": "/tours",
-          "weight": 2
+          "weight": 2,
+          "children": [
+            {
+              "name": "All Tours",
+              "URL": "/tours",
+              "order": 1
+            },
+            {
+              "name": "Departures",
+              "URL": "/tours/departures",
+              "order": 2
+            }
+          ]
         },
         {
           "name": "About",
