@@ -6,10 +6,10 @@ days: "6 days"
 description : "A series of day walks across the Khasi and Jaintia hills of Meghalaya"
 bg_image: /images/tours/walking-tour-meghalaya.jpg
 image: /images/tours/walking-tour-meghalaya.jpg
-category: "active"
-cat: "Easy"
+category: "departures"
+cat: "1 - 6 Oct' 2022"
 type : "walking"
-tags: ["meghalaya", "trekking"]
+tags: ["meghalaya", "walking"]
 weight: 8
 touricon: "iconoir:walking"
 
