@@ -13,6 +13,7 @@ import TouroversList from "../../components/tours/tour-itin-overs";
 import TourdataList from "../../components/tours/tour-itin-data-list";
 import TouraccoList from "../../components/tours/tour-itin-acco-list";
 import TourGallery from "../../components/tours/tour-itin-gallery";
+import TourVideo from "../../components/tours/tour-itin-video";
 import EnquiryForm from "../../components/enquiry-form";
 import TourFaq from "../../components/tours/tour-itin-faq";
 import TourOthertours from "../../components/tours/tour-itin-othertours";
@@ -99,6 +100,12 @@ export default function Tour({ tour }) {
                     <TourdataList datalist={tour.inclusions} />
                 </Tab>
                 ) : null}
+                {tour.exclusions ? (
+                    <Tab eventKey="exclusions" title="Exclusions">
+                  <h5 className="mb-5">Exclusions</h5>
+                    <TourdataList datalist={tour.exclusions} />
+                </Tab>
+                ) : null}
                 {tour.meals || tour.accommodation || tour.refreshments ? (
                 <Tab eventKey="accommodation" title="Accomodation">
                   <h5 className="mb-5">Accomodation</h5>
@@ -116,6 +123,12 @@ export default function Tour({ tour }) {
                       subtitle={tour.subtitle}
                     /> 
                 </Tab>
+                {tour.video ? (
+                    <Tab eventKey="video" title="Video">
+                  <h5 className="mb-5">Video</h5>
+                    <TourVideo video={tour.video} />
+                </Tab>
+                ) : null}
                 {tour.title ? 
                 <Tab eventKey="enquire" title="Enquire">
                   <h5 className="mb-5">Enquire</h5>
@@ -162,6 +175,7 @@ export async function getStaticProps({ params }) {
     "tourdesc",
     "bg_image",
     "image",
+    "video",
     "type",
     "category",
     "cat",
@@ -173,6 +187,7 @@ export async function getStaticProps({ params }) {
     "overs",
     "highlights",
     "inclusions",
+    "exclusions",
     "accommodation",
     "meals",
     "refreshments",
