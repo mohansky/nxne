@@ -74,7 +74,7 @@ export default function HeroSliderMain() {
           <Slider {...settings} ref={setcurrentSlide}>
             {Slides.hero.slides.map((item, index) => (
               <div  className="hero-slider-item py-160" key={index}>
-                <div className="overlay"></div>
+                {/* <div className="overlay"></div> */}
                 <Image
                   src={item.image}
                   alt="North by Northeast Journeys"
