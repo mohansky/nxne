@@ -3,7 +3,7 @@ import Image from "next/image";
 import { imgblurDataURL } from "../../lib/constants";
 import {Button} from 'react-bootstrap';
 import { Icon } from "@iconify/react";
-import { motion, useAnimation } from "framer-motion";
+import { motion, useAnimation } from "framer-motion"; 
 
 export default function TourCard({
   title,
@@ -52,7 +52,8 @@ export default function TourCard({
                           <Icon className="me-2 mb-1" icon="bytesize:flag" />
                            {days}
                         </p>
-                        <hr className="my-0 bg-warning" />
+                        <hr className="my-0 bg-nne-secondary" /> 
+                        {/* <SectionSeparator /> */}
                         <p className="card-text tour-card ms-2 mb-0">
                           <Icon className="me-2 mb-1" icon="bi:speedometer2" />
                            {cat} 

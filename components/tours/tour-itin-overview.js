@@ -11,8 +11,8 @@ export default function TourOverview({ overview }) {
               <Icon className="me-2 mb-1" icon={item.icon} />
               {item.label}
             </p>
-            <span className="font-weight-normal text-dark float-end">
-              {item.data}
+            <span className="fw-bold text-dark float-end">
+            <p> {item.data} </p>
             </span>
           </li>
         ))}
