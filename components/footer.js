@@ -57,7 +57,6 @@ export default function Footer() {
                   </li>
                 ))}
               </ul>
-              <hr/>
             </div>
             <div className="col-lg-2 col-md-3">
               <h6 className="text-white mb-4">Quick Links</h6>
@@ -71,12 +70,10 @@ export default function Footer() {
                   </li>
                 ))}
               </ul>
-              <hr/>
             </div>
             <div className="col-lg-2 col-md-6 ">
               <h6 className="text-white mb-4">Join our mailing list</h6>
               <MailingList/>
-              <hr/>
             </div>
           </div>
         </div>
