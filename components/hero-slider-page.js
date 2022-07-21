@@ -14,7 +14,7 @@ export default function HeroSliderPage() {
   return (
     <>
       <div className="hero-slider-item page py-160">
-        <div className="overlay page"></div>
+        {/* <div className="overlay page"></div> */}
         <Image
           src={image}
           alt="Cover Image"
