@@ -121,6 +121,13 @@ h6, .h6 {
   }
 }
 
+hr{ 
+  border-top: 1px solid var(--nne-secondary) !important;
+  border-bottom: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 body {
   background-color: var(--nne-white);
   overflow-x: hidden;
