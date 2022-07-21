@@ -4,8 +4,8 @@ title: "ZIRO FESTIVAL OF MUSIC AND BEYOND"
 subtitle: "A Roadtrip to Central Arunachal Pradesh"
 days: "11 days"
 description : "An adventurous roadtrip across central and eastern Arunachal Pradesh, including the Ziro Festival of Music."
-bg_image: /images/tours/ziro-festival-and-arunachal-pradesh-road-trip.jpg
-image : /images/tours/ziro-festival-and-arunachal-pradesh-road-trip.jpg
+bg_image: /images/tours/departures-ziro-festival-of-music-2022-and-mechuka-roadtrip.jpg
+image : /images/tours/departures-ziro-festival-of-music-2022-and-mechuka-roadtrip.jpg
 category: "departures"
 cat: "29 Sept - 9 Oct, 2022"
 type : "September"

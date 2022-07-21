@@ -4,8 +4,8 @@ title: "WALKERS TOUR OF MEGHALAYA"
 subtitle: "Walks in the Clouds"
 days: "6 days"
 description : "A series of day walks across the Khasi and Jaintia hills of Meghalaya"
-bg_image: /images/tours/walking-tour-meghalaya.jpg
-image: /images/tours/walking-tour-meghalaya.jpg
+bg_image: /images/tours/departures-walking-tour-meghalaya.jpg
+image: /images/tours/departures-walking-tour-meghalaya.jpg
 category: "departures"
 cat: "1 - 6 Oct' 2022"
 type : "walking"
@@ -98,14 +98,14 @@ faq:
   text: We have a very experienced team which is also local. This reflects in the overall safety of our tours. Rest assured your guides know where extra attention is required and when. All our routes are well known to us, we know where the nearest medical facilities are, we know whom to contact if in case of an emergency, we know all the alternate routes in case of road blockages. We have CASEVAC protocols in place to streamline the process in case of emergencies. You can rest easy knowing that in the outdoors in general and this region in particular you are in safe hands with us.
 
 galleryimages:
-  - "/images/tours/gallery/walking-tour-meghalaya/active-holiday-meghalaya-walking.jpg"
-  - "/images/tours/gallery/walking-tour-meghalaya/day-hikes-in-meghalaya.jpg"
-  - "/images/tours/gallery/walking-tour-meghalaya/Meghalaya-walking-holiday.jpg"
-  - "/images/tours/gallery/walking-tour-meghalaya/walkers-tour-meghalaya.jpg"
-  - "/images/tours/gallery/walking-tour-meghalaya/walking-holiday-meghalaya.jpg"
-  - "/images/tours/gallery/walking-tour-meghalaya/walking-in-meghalaya.jpg"
-  - "/images/tours/gallery/walking-tour-meghalaya/walks-in-meghalaya.jpg"
-  - "/images/tours/gallery/walking-tour-meghalaya/walks-in-the-clouds-meghalaya.jpg"
+  - "/images/tours/gallery/departures-walking-tour-meghalaya/departures-walking-tour-meghalaya1.jpg"
+  - "/images/tours/gallery/departures-walking-tour-meghalaya/departures-walking-tour-meghalaya2.jpg"
+  - "/images/tours/gallery/departures-walking-tour-meghalaya/departures-walking-tour-meghalaya3.jpg"
+  - "/images/tours/gallery/departures-walking-tour-meghalaya/departures-walking-tour-meghalaya4.jpg"
+  - "/images/tours/gallery/departures-walking-tour-meghalaya/departures-walking-tour-meghalaya5.jpg"
+  - "/images/tours/gallery/departures-walking-tour-meghalaya/departures-walking-tour-meghalaya6.jpg"
+  - "/images/tours/gallery/departures-walking-tour-meghalaya/departures-walking-tour-meghalaya7.jpg"
+  - "/images/tours/gallery/departures-walking-tour-meghalaya/departures-walking-tour-meghalaya8.jpg"
 
 othertours:
 - title: Walks in India's far east

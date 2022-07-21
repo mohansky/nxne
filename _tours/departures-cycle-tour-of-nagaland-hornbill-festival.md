@@ -4,8 +4,8 @@ title: "HORNBILL CYCLE EXPEDITION"
 subtitle: "Shillong to Kohima"
 days: "10 Days"
 description : "Hornbill Festival Tour, Nagaland and Assam. Culture, Cuisine and Wildlife of Assam and Nagaland"
-bg_image: /images/tours/culture-tour-of-nagaland-hornbill-festival.jpg 
-image : /images/tours/culture-tour-of-nagaland-hornbill-festival.jpg 
+bg_image: /images/tours/departures-cycle-tour-of-nagaland-hornbill-festival.jpg 
+image : /images/tours/departures-cycle-tour-of-nagaland-hornbill-festival.jpg 
 type: "culture"
 category: "departures"
 cat: "30 Nov - 9 Dec' 2022"

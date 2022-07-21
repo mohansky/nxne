@@ -4,8 +4,8 @@ title: "ZIRO FESTIVAL OF MUSIC 2022"
 subtitle: "A Roadtrip to Central Arunachal Pradesh"
 days: "6 days"
 description : "An adventure trip to the easternmost point of India."
-bg_image: /images/tours/ziro-festival-of-music-2022-tour.jpg
-image : /images/tours/ziro-festival-of-music-2022-tour.jpg
+bg_image: /images/tours/departures-ziro-festival-of-music-2022-trip.jpg
+image : /images/tours/departures-ziro-festival-of-music-2022-trip.jpg
 category: "departures"
 cat: "29 Sept - 4 Oct, 2022"
 type : "September"

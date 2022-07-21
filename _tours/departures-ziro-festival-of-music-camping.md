@@ -4,8 +4,8 @@ title: "ZIRO FESTIVAL OF MUSIC 2022"
 subtitle: "Camping Packages"
 days: "4 nights"
 description : "This cycle tour takes you to eastern Arunachal Pradesh on a multiday cycling holiday."
-bg_image: /images/tours/ziro-festival-of-music-2022-camping.jpg
-image : /images/tours/ziro-festival-of-music-2022-camping.jpg
+bg_image: /images/tours/departures-ziro-festival-of-music-camping.jpg
+image : /images/tours/departures-ziro-festival-of-music-camping.jpg
 category: "departures"
 cat: "29 Sept - 2 Oct' 2022"
 type : "active"
@@ -73,7 +73,9 @@ galleryimages:
   - "/images/tours/gallery/departures-ziro-festival-of-music-camping/ZFM-camping-2.jpg" 
   - "/images/tours/gallery/departures-ziro-festival-of-music-camping/ZFM-camping-3.jpg" 
   - "/images/tours/gallery/departures-ziro-festival-of-music-camping/ZFM-camping-4.jpg" 
-
+  - "/images/tours/gallery/departures-ziro-festival-of-music-camping/ZFM-camping-5.jpg" 
+  - "/images/tours/gallery/departures-ziro-festival-of-music-camping/ZFM-camping-6.jpg" 
+  - "/images/tours/gallery/departures-ziro-festival-of-music-camping/ZFM-camping-7.jpg" 
 ---
 
 #### ZIRO FESTIVAL OF MUSIC 2022: Camping Packages 
