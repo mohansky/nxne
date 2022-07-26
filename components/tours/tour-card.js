@@ -37,7 +37,7 @@ export default function TourCard({
                 <Link href={`/tours/${slug}`}>
                   <a>
                     <h6 className="card-title tour-card mb-1 fw-bold">{title}</h6>
-                    <p className="card-text tour-card mb-1">{subtitle}</p>
+                    <p className="card-text tour-card tour-card-subtitle mb-1">{subtitle}</p>
                     <div className="row">
                       <div className="col-2">
                         <h6 >
