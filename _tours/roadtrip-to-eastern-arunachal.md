@@ -1,8 +1,8 @@
 ---
 draft: false
 title: "THE EASTERN ODYSSEY"
-subtitle: "A Roadtrip to Eastern Arunachal Pradesh"
-days: "6 days "
+subtitle: "A Roadtrip in Eastern Arunachal Pradesh chasing India's first sunrise"
+days: "6 - 12 days "
 description : "An adventure trip to the easternmost point of India."
 bg_image: /images/tours/roadtrip-to-eastern-arunachal.jpg
 image : /images/tours/roadtrip-to-eastern-arunachal.jpg
@@ -25,7 +25,7 @@ overview:
     
   - label : DURATION
     icon : bytesize:flag
-    data : 6 days
+    data : 6 - 12 days
 
   - label : AIRPORT IN
     icon : ic:round-flight-land
@@ -47,11 +47,7 @@ overs:
   - l: Level 
     d: Easy to Moderate
   - l: Total Days 
-    d: 6
-  - l: Walking days 
-    d: 4
-  - l: Avg. walking time 
-    d: 5 - 6 hrs
+    d: 6 - 12
   - l: Terrain 
     d: 80% undulating
   - l: Altitude variation 
@@ -63,12 +59,11 @@ overs:
 
 highlights:
  - The northernmost lowland rainforest of the world
- - The only sanctury to host the 4 big cats
- - Away from civilization
- - Camp under the forest canopy and on the banks of pristine rivers
+ - India's first sunrise and sunset
+ - Meet the Theravada and Animist tribes
  - A naturalist to explain life under the canopy, the grasslands and the riverine areas
  - Spot the Hornbills and the Hollock Gibbons
- - Best option for a covid 19 getaway
+ - Cuisine and culture of far eastern India
 
 inclusions:
  - All accommodation
@@ -110,10 +105,8 @@ othertours:
   link: /tours/culture-tour-western-arunachal-pradesh
   image: /images/tours/culture-tour-western-arunachal-pradesh.jpg  
 ---
-#### A trek in the worlds northernmost lowland rainforest
 
-This trekking holiday takes you to the Namdapha National Park located in eastern Arunachal Pradesh. Namdapha is one of the largest protected areas of Asia as well as the northernmost lowland evergreen rainforest of the world. We take you walking for 4 days through thick rain forest, grasslands and riverine areas of the national park.
+ We take you to far east of India, to the land of the ‘Dawn lit ‘Mountains’. Typically when one talks of Arunachal Pradesh, Tawang and Ziro valley automatically come up, rest remains mostly unknown. Here we take you all the way to far eastern Arunachal Pradesh bordering China and Myanmar, in fact, to the point where the first rays of the sun hits India.
+On this tour you will explore the easternmost part of India, meet the Animist and Buddhist tribes who reside here, soak in the unparalleled vistas, hike in the worlds northernmost rainforest, visit the Therevada Buddhist temples, sample local cuisine and much more.
 
-Perched between the East Himalayan and the Indo-Burmese Biodiversity hotspots Namdapha is home to over 1000 species of plants, 425 avian species and over 90 species of mammals. This is also the only wildlife park to host four big cats in India, namely the Royal Bengal Tiger, Spotted Leopard, Snow Leopard and the Clouded Leopard.
-
-The entire proceedings has been designed with the pandemic in mind. Our intention is to take you far from the hustle bustle of daily life and deep into inarguably the wildest region of India.
+The entire proceedings has been designed with the  intention to take you far from the hustle bustle of daily life and deep into inarguably the wildest region of India.

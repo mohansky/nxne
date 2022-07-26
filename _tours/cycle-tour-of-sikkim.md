@@ -3,7 +3,7 @@ draft: false
 title: "CYCLE TOUR OF SIKKIM & WEST BENGAL"
 subtitle: "The Monastic Trail"
 days: "9 to 14 days"
-description : "This Cycle tour takes you through the best of Sikkim and West Bengal"
+description : "This Cycle tour takes you riding through the best of Sikkim and West Bengal"
 bg_image: /images/tours/cycle-tour-of-sikkim.jpg
 image : /images/tours/cycle-tour-of-sikkim.jpg
 type : "cycling"
@@ -136,6 +136,7 @@ othertours:
   image: /images/tours/cycle-tour-of-sikkim.jpg
 ---
 
-#### Cycle Tour of Sikkim & W Bengal: Of Mountains and Monastries
 
-This cycling tour of Sikkim and West Bengal takes us through East, South and Western districts of Sikkim and the Darjeeling district of West Bengal. We will generally be in sub alpine rural himalayas, this provides us an excellent opportunity to observe life in these parts, interact with the locals and throughout be accompanied by amazing panoramas of the high himalayas. This tour takes you through most of the important locations of this region, including  historic, religious and cultural sites.
+This cycling tour of Sikkim and West Bengal takes us through East, South and Western districts of Sikkim and the Darjeeling district of West Bengal. We will generally be in sub alpine rural himalayas, this provides us an excellent opportunity to observe life in these parts, interact with the locals and throughout be accompanied by amazing panoramas of the high himalayas. This tour takes you through most of the important locations of this region, including  historic, religious and cultural sites. Sikkim was its own mountain kingdom till 1975 and still retains a very distinctive personality. The meditative, mural-filled traditional monasteries of Tibetan Buddhism coexist with Hindu shrines of the ever-growing Nepali community, with both religions creating some astonishing latter-day megasculptures to adorn the skyline.
+
+Hassle-free and warm-hearted, it's a state that's all too easy to fall in love with, explaining perhaps why permit regulations prevent foreigners staying too long or going too far. Clean, green and 'all organic' since 2016, Sikkim is mostly a maze of plunging, supersteep valleys thick with lush subtropical woodlands and rhododendron groves, rising in the north to the spectacular white-top peaks of the eastern Himalaya. When clouds clear, an ever-thrilling experience from many a ridge-top perch is spotting the world's third-highest mountain, Khangchendzonga (8598m), on the northwestern dawn horizon.

@@ -14,9 +14,6 @@ weight: 8
 touricon: "iconoir:walking"
 
 overview:
-  - label : TOUR DATE
-    icon : bi:sun
-    data : 1 - 6 Oct' 2022
 
   - label : DURATION
     icon : bytesize:flag
@@ -38,9 +35,13 @@ overview:
     icon : ic:round-flight-takeoff
     data : Guwahati (Assam)
 
+  - label : BEST TIME
+    icon : bi:sun
+    data : October - March
+
   - label : COST
     icon : bi:wallet2
-    data : INR 32,000/ Twin share
+    data : On Request
 
 overs:
   - l: Level 
@@ -122,7 +123,6 @@ othertours:
   image: /images/tours/trekking-in-west-arunachal-pradesh.jpg   
 ---
 
-#### Walking Tour of Meghalaya: Explorations in the 'Abode of Clouds'
 
 This Walking holiday takes you to beautiful Meghalaya, 'The Abode of clouds’.   Meghalaya is a hilly state jutting out between the vast plains of the Brahmaputra valley and that of Bangladesh. Due to its unique geographical location this region records some of the heaviest rainfall on earth, which in turn leads to this state having such a lush and verdant environment. 
 

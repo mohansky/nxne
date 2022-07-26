@@ -123,7 +123,6 @@ othertours:
   image: /images/tours/family-eastern-arunachal-pradesh.jpg  
 ---
 
-#### Family adventure holiday in the Khasi & Jaintia hills of Meghalaya
 
 This Adventure holiday for the family is set in hilly Meghalaya. Meghalaya literally meaning the ‘Abode of clouds’ is one of the wettest places on earth during the monsoons. Cherrapunji and Mawsynram both in Meghalaya take their turn recording some of the heaviest rainfall on the planet.
 

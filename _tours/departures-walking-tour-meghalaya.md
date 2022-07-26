@@ -122,7 +122,6 @@ othertours:
   image: /images/tours/trekking-in-west-arunachal-pradesh.jpg   
 ---
 
-#### Walking Tour of Meghalaya: Explorations in the 'Abode of Clouds'
 
 This Walking holiday takes you to beautiful Meghalaya, 'The Abode of clouds’.   Meghalaya is a hilly state jutting out between the vast plains of the Brahmaputra valley and that of Bangladesh. Due to its unique geographical location this region records some of the heaviest rainfall on earth, which in turn leads to this state having such a lush and verdant environment. 
 

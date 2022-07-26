@@ -128,7 +128,6 @@ othertours:
   image: /images/tours/motorcycle-overland-western-arunachal-pradesh.jpg 
 ---
 
-#### Motorcyle & Overland Tour of Northeast India: The wildest of Northeast India
 
 This particular ride takes us through the backroads of some of India’s easternmost states namely Arunachal Pradesh, Nagaland, Assam and Meghalaya. A rider’s delight, this route includes the dense forested hills of Nagaland, and Arunachal Pradesh, the tea oil rich  regions of Assam and the wettest places on Earth at Meghalaya. Incidentally this region has one of the highest densities of ethnicities and languages in the whole of India. 
 

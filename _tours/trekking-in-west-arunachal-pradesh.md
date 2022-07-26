@@ -123,7 +123,6 @@ othertours:
   image: /images/tours/trekking-in-sikkim-bengal.jpg
 ---
 
-#### Treking in Arunachal Pradesh: Ridge running along the Bhutanese frontier
 
 This particular trek is set in Western Arunachal Pradesh, in the states Buddhist belt close to the tri-junction between India, Tibet and Bhutan. This region is home to the Monpa,  Sherdukpen and the Brokpa people. Starting from the township of Dirang, the trek takes you along the Bhutanese border via a region known for its high altitude lakes and rhodendrons while ending in the Sela Pass or Jang depending on the duration one chooses.
 

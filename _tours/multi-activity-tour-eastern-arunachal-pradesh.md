@@ -127,7 +127,6 @@ othertours:
   link: /tours/multi-activity-holiday-in-meghalaya
   image: /images/tours/multi-activity-holiday-in-meghalaya.jpg
 ---
-#### Multi-activity tour of eastern Arunachal Pradesh: Eastern tributaries of the Brahmaputra explored
 
 This multi-activity tour of eastern Arunachal Pradesh takes us on bicycles, rafts and on foot across the watershed area of the Brahmaputra River valley. This region situated at the foothills of the Mishmi hills the eastern flank to the Himalayan chain, is the land of the Animist and Theravada Buddhist tribes. 
 

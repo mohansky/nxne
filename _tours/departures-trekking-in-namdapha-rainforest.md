@@ -3,7 +3,7 @@ draft: false
 title: "THE RAINFOREST TREK"
 subtitle: "Trekking in Namdapha National Park"
 days: "6 days"
-description : "Trekking & Wildlife Expedition in Namdapha National Park of Eastern Arunachal Pradesh. A unique trek in the worlds northernmost rainforest"
+description : "A unique trek in the worlds northernmost rainforest, Namdapha National Park of Eastern Arunachal Pradesh. "
 bg_image: /images/tours/departures-trekking-in-namdapha-rainforest.jpg
 image : /images/tours/departures-trekking-in-namdapha-rainforest.jpg
 category: "departures"
@@ -116,7 +116,6 @@ othertours:
   image: /images/tours/culture-tour-western-arunachal-pradesh.jpg
 ---
 
-#### A trek in the worlds northernmost lowland rainforest
 
 This trekking holiday takes you to the Namdapha National Park located in eastern Arunachal Pradesh. Namdapha is one of the largest protected areas of Asia as well as the northernmost lowland evergreen rainforest of the world. We take you walking for 4 days through thick rain forest, grasslands and riverine areas of the national park.
 

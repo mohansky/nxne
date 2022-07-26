@@ -1,7 +1,7 @@
 --- 
 draft: false
 title: "ZIRO FESTIVAL OF MUSIC AND BEYOND"
-subtitle: "A Roadtrip to Central Arunachal Pradesh"
+subtitle: "A Roadtrip to Central, Eastern Arunachal Pradesh and the Ziro Festival of Music 2022"
 days: "11 days"
 description : "An adventurous roadtrip across central and eastern Arunachal Pradesh, including the Ziro Festival of Music."
 bg_image: /images/tours/departures-ziro-festival-of-music-2022-and-mechuka-roadtrip.jpg
@@ -87,7 +87,6 @@ galleryimages:
   - "/images/tours/gallery/departures-ziro-festival-of-music-camping/ZFM-camping-4.jpg" 
 ---
 
-#### ZIRO FESTIVAL OF MUSIC AND BEYOND: A Roadtrip to Central Arunachal Pradesh
 
 We take you to Arunachal Pradesh, India’s easternmost state. Arunachal Pradesh appears as a giant patch of green on the country’s map. India’s wildest and least explored state, Arunachal (literally the ‘land of dawn-lit mountains’) rises abruptly from the Assam plains as a mass of densely forested and impossibly steep hills, culminating in snowcapped peaks along the Tibetan border. It shares three international borders with Bhutan, Tibet and Myanmar. This state is home to 26 major tribes with over 100 sub-tribes and clans speaking some 50 odd dialects. Arunachal Pradesh is perhaps the last sanctuary for India’s natural and anthropological heritage.
 

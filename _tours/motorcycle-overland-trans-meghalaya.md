@@ -126,7 +126,6 @@ othertours:
   image: /images/tours/motorcycle-overland-northeast.jpg    
 ---
 
-#### Trans Meghalaya Motorcycle & Overland Tour: The abode of clouds explored
 
 Starting from Guwahati the capital of Assam, this motorcycle / overland tour takes you through little known secluded roads of Meghalaya. Entering Meghalaya in the western end we make our way to its far eastern hills, enroute traversing through varying conditions and basking in the  vistas of the Meghalayan hills and the plains of Bangladesh while staying in charming locations all through settled by different tribes.
 

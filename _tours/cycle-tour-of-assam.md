@@ -2,8 +2,8 @@
 draft: false
 title: "CYCLE TOUR OF ASSAM" 
 subtitle: "The Brahmaputra Explorer" 
-days: "7 to 15 days" 
-description : "This Multi-day Cycle Tour of Assam takes you along the Brahmaputra valley, the physical heart of Northeast India."
+days: "6 to 12 days" 
+description : "This Multi-day Cycle Tour of Assam takes you across the Brahmaputra valley, the physical heart of Northeast India."
 bg_image: /images/tours/cycle-tour-of-assam.jpg
 image : /images/tours/cycle-tour-of-assam.jpg
 type : "cycling"
@@ -24,7 +24,7 @@ overview:
 
   - label : DURATION
     icon : bytesize:flag
-    data : 7 to 15 days
+    data : 6 to 12 days
 
   - label : AIRPORT IN
     icon : ic:round-flight-land
@@ -46,9 +46,9 @@ overs:
   - l: Level 
     d: Easy to Moderate
   - l: Total Days 
-    d: 7 to 15
+    d: 6 to 12
   - l: Max. Cycling distance 
-    d: Upto 650 Km
+    d: Upto 600 Km
   - l: Avg. Cycling Distance 
     d: 70 Km
   - l: Terrain 
@@ -64,8 +64,8 @@ overs:
 
 highlights:
   - Explore the Brahmaputra Valley
-  - Ride along some of India's greatest Wildlife Parks
-  - Ride across the largest River Island of the world
+  - Visit some of India's greatest Wildlife Parks
+  - Explore the largest River Island of the world
   - Meet the Vaishnavite, Animist and the Theravada tribes of eastern India
   - A window into over 12 distinct ethinic groups
   - See some of the greatest Himalayan Rivers
@@ -137,7 +137,6 @@ othertours:
   image: /images/tours/cycle-tour-of-sikkim.jpg
 --- 
 
-#### Cycle tour of Assam: Cycling in the heart of Northeastern India
 
 The cycle tour of Assam takes you along the Brahmaputra river valley. This is the physical heart of Northeast India, a verdant region fed by a network of mighty rivers coming down from the mountains on three sides. As the tour progresses you will interact and observe diverse cultures, sample various cuisines, visit wildlife parks, understand the process of Tea production and more. 
 

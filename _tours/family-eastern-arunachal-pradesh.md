@@ -122,7 +122,6 @@ othertours:
   image: /images/tours/family-holiday-in-meghalaya.jpg
 ---
 
-#### Family Holiday in Eastern Arunachal Pradesh: Far eastern explorations
 
 This active family holiday of Eastern Arunachal Pradesh is set in some of the only flatlands of the state lying at the foothills of the Mishmi Hills (Himalayas eastern flank). Exploring around the Brahmaputra, Lohit and Dibang rivers. Rich plains have always given rise to more sophisticated and elaborate societies. This is the region where Hinduism, Theravada Buddhism and the Animist tribes meet and have coexisted for eons.
 

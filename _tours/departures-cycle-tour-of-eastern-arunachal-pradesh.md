@@ -3,7 +3,7 @@ draft: false
 title: "CYCLE TOUR OF EASTERN ARUNACHAL PRADESH"
 subtitle: "Watershed of the Brahmaputra "
 days: "6 Days"
-description : "This cycle tour takes you to eastern Arunachal Pradesh on a multiday cycling holiday."
+description : "This tour takes you to eastern Arunachal Pradesh on a multiday cycling holiday across the watershed region of the Brahmaputra Valley."
 bg_image: /images/tours/departures-cycle-tour-of-eastern-arunachal-pradesh.jpg
 image : /images/tours/departures-cycle-tour-of-eastern-arunachal-pradesh.jpg
 # video: https://www.youtube.com/watch?v=AV5-Chp6p14&ab_channel=NorthBynortheast
@@ -52,9 +52,9 @@ overs:
 - l: Duration
   d: 6 Days
 - l: Riding Days
-  d: 5
+  d: 4
 - l: Total cycling distance
-  d: ~300 Km
+  d: ~280 Km
 - l: Terrain
   d: 25% Hilly 
 - l: Altitude variation
@@ -128,7 +128,6 @@ othertours:
   image: /images/tours/cycle-tour-of-assam.jpg
 --- 
 
-#### Cycle tour of Eastern Arunachal Pradesh
 
 This cycle tour of Eastern Arunachal Pradesh (the eastern most state of India) takes you to the watershed of the mighty Brahmaputra River. This is where the three easternmost tributaries come together to form one of the mightiest river valleys of the world.
 

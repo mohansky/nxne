@@ -15,9 +15,6 @@ touricon: "iconoir:trekking"
 
 # overview
 overview:
-  - label : Dates
-    icon : bi:sun
-    data : 18 - 23, March 2022
     
   - label : STATES
     icon : bi:globe
@@ -39,9 +36,13 @@ overview:
     icon : ic:round-flight-takeoff
     data : Dibrugarh (Assam)
 
+  - label : BEST TIME
+    icon : bi:sun
+    data : October - March
+
   - label : COST
     icon : bi:wallet2
-    data : INR 39,000/ Twin share
+    data : On Request
 
 overs:
   - l: Level 
@@ -115,8 +116,6 @@ othertours:
   link: /tours/culture-tour-western-arunachal-pradesh
   image: /images/tours/culture-tour-western-arunachal-pradesh.jpg
 ---
-
-#### A trek in the worlds northernmost lowland rainforest
 
 This trekking holiday takes you to the Namdapha National Park located in eastern Arunachal Pradesh. Namdapha is one of the largest protected areas of Asia as well as the northernmost lowland evergreen rainforest of the world. We take you walking for 4 days through thick rain forest, grasslands and riverine areas of the national park.
 

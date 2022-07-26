@@ -3,7 +3,7 @@ draft: false
 title: "CYCLE TOUR OF MEGHALAYA"
 subtitle: "The Abode of clouds"
 days: "6 to 12 days"
-description : "This Cycle tour of Meghalaya takes you riding across the Khasi and Jaintia Hills."
+description : "This Cycle tour of Meghalaya takes you rexploring the Khasi and Jaintia Hills."
 bg_image: /images/tours/cycle-tour-of-meghalaya.jpg
 image : /images/tours/cycle-tour-of-meghalaya.jpg
 type : "cycling"
@@ -138,7 +138,6 @@ othertours:
   image: /images/tours/cycle-tour-of-sikkim.jpg
 ---
 
-#### Cycle tour of Meghalaya: The Khasi and Jaintia hills explored.
 
 ---
 This cycle tour takes you to the Khasi and Jaintia hills of picteresque Meghalaya. Meghalaya meaning the 'Abode of clouds' is a green hilly state perched between the great plains of Bangladesh and that of Assam. Other than being the home of some of the only matrilineal societies of the subcontinent, Meghalaya also has some of the heaviest rainfall on earth. Cherrapunji and Mawsynram both in Meghalaya have taken their turns recording some of the heaviest rainfall ever to be recorded. This is a land well endowed in natural beauty, home to some of the highest waterfalls and deepest caves of Asia.

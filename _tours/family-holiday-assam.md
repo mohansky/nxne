@@ -120,8 +120,6 @@ othertours:
   image: /images/tours/family-eastern-arunachal-pradesh.jpg
 ---
 
-#### Family Holiday in Assam: Jewels of the Brahmaputra Valley
-
 The setting for this family holiday is the lush Brahmaputra valley of Assam. This is the physical heart of Northeastern India. A vast valley spread between the mighty Himalayas in the North and the lesser hills of Meghalaya and Nagaland in the South. Assam is the largest and most accessible of the Northeastern States. This fertile land is generally known for its rich wildlife parks, lush tea plantations and unique cultures. On this tour we will explore, experience and observe some of the best that this state has to offer.
 
 This  holiday can be tailored to your family’s personal preferences, be it the range of activities, duration or accommodation options. This trips can be guided, unguided , driver driven or selfdriven depending on your preference and comfort.
