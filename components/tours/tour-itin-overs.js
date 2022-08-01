@@ -5,8 +5,8 @@ export default function TouroversList({overs}) {
     <>
         <ul className="pl-0 mb-10">
             {overs.map((item, index) => (
-              <li className="pt-2 border-bottom-not-last" key={index}>
-                <p className="mt-0">
+              <li className="py-1 border-bottom-not-last" key={index}>
+                <p className="my-1">
                   <b className="text-muted">{item.l}</b>
                   <br />
                   {item.d}
