@@ -152,7 +152,7 @@ export default function Tour({ tour }) {
                 </h6>
               </div>
               <SectionSeparator />
-              <h4 className="text-capitalize"> other {tour.type} tours</h4>
+              <h4 className="text-capitalize"> other {tour.type}</h4>
               {tour.othertours ? (
                 <TourOthertours othertours={tour.othertours} />
               ) : null}
