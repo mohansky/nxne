@@ -6,7 +6,7 @@ days: "14 to 17 days"
 description : "This motorcycle & Overland tour of Northeast India takes you across Assam, Nagaland, Meghalaya and Arunachal Pradesh."
 bg_image: /images/tours/motorcycle-overland-northeast.jpg
 image : /images/tours/motorcycle-overland-northeast.jpg
-type: "motorcycle"
+type: "motorcycle tours"
 category: "active"
 cat: "Streneuous"
 tags: ["assam", "arunachal", "nagaland", "meghalaya", "overland"]

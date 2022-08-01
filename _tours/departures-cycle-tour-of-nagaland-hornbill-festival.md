@@ -6,7 +6,7 @@ days: "10 Days"
 description : "Hornbill Festival Tour, Nagaland and Assam. Culture, Cuisine and Wildlife of Assam and Nagaland"
 bg_image: /images/tours/departures-cycle-tour-of-nagaland-hornbill-festival.jpg 
 image : /images/tours/departures-cycle-tour-of-nagaland-hornbill-festival.jpg 
-type: "culture"
+type: "departures"
 category: "departures"
 cat: "30 Nov - 9 Dec' 2022"
 tags: ["nagaland", "assam", "November"]
@@ -111,13 +111,25 @@ galleryimages:
   - "/images/tours/gallery/departures-cycle-tour-of-nagaland-hornbill-festival/departures-cycle-tour-of-nagaland-hornbill-festival7.jpg"
   - "/images/tours/gallery/departures-cycle-tour-of-nagaland-hornbill-festival/departures-cycle-tour-of-nagaland-hornbill-festival8.jpg"
 
-# othertours:
-# - title: Monyul & Brahmaputa Valley 
-#   link: /tours/culture-tour-western-arunachal-pradesh
-#   image: /images/tours/culture-tour-western-arunachal-pradesh.jpg
-# - title: Theravada & Animist lands 
-#   link: /tours/culture-tour-eastern-arunachal-pradesh
-#   image: /images/tours/culture-tour-eastern-arunachal-pradesh.jpg 
+othertours:
+- title: Ziro Festival 2022 Camping Packages
+  link: /tours/departures-ziro-festival-of-music-camping
+  image: /images/tours/departures-ziro-festival-of-music-camping.jpg
+- title: Ziro Festival 2022 & A Roadtrip to Central Arunachal Pradesh
+  link: /tours/departures-ziro-festival-of-music-2022-trip
+  image: /images/tours/departures-ziro-festival-of-music-camping.jpg
+- title: Ziro Festival 2022 & A Roadtrip to Central, Eastern Arunachal Pradesh
+  link: /tours/departures-ziro-festival-of-music-2022-and-mechuka-roadtrip
+  image: /images/tours/departures-ziro-festival-of-music-camping.jpg
+- title: Watershed of the Brahmaputra 
+  link: /tours/departures-cycle-tour-of-eastern-arunachal-pradesh
+  image: /images/tours/departures-cycle-tour-of-eastern-arunachal-pradesh.jpg
+- title: Walks in the Clouds
+  link: /tours/departures-walking-tour-meghalaya
+  image: /images/tours/departures-walking-tour-meghalaya.jpg
+- title: Trekking in Namdapha National Park
+  link: /tours/departures-trekking-in-namdapha-rainforest
+  image: /images/tours/departures-trekking-in-namdapha-rainforest.jpg 
 ---
  
 

@@ -6,7 +6,7 @@ days: "6 to 10 days"
 description : "Multi activity holiday takes you to prestine Meghalaya, 'The Abode of Clouds', the tour includes cycling, hiking, swimming, culture and cuisine"
 bg_image: /images/tours/multi-activity-holiday-in-meghalaya.jpg
 image : /images/tours/multi-activity-holiday-in-meghalaya.jpg
-type: "multi-activity"
+type: "multi-activity tours"
 category: "active"
 cat: "Moderate"
 tags: ["meghalaya", "multi-activity"]

@@ -6,7 +6,7 @@ days: "6 - 12 days "
 description : "An adventure trip to the easternmost point of India."
 bg_image: /images/tours/roadtrip-to-eastern-arunachal.jpg
 image : /images/tours/roadtrip-to-eastern-arunachal.jpg
-type : "roadtrip"
+type : "roadtrips"
 category: "leisure"
 cat: "Offbeat"
 tags: ["east-arunachal", "roadtrip"]

@@ -6,7 +6,7 @@ days: "6 to 12 days"
 description : "Hornbill Festival Tour, Nagaland and Assam. Culture, Cuisine and Wildlife of Assam and Nagaland"
 bg_image: /images/tours/culture-tour-of-nagaland-hornbill-festival.jpg 
 image : /images/tours/culture-tour-of-nagaland-hornbill-festival.jpg 
-type: "culture"
+type: "culture tours"
 category: "culture"
 cat: "December"
 tags: ["nagaland", "assam"]

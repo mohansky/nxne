@@ -6,7 +6,7 @@ days: "6 to 9 days"
 description : "An active adventure holiday for the entire family in prestine Meghalaya"
 bg_image: /images/tours/family-holiday-in-meghalaya.jpg
 image : /images/tours/family-holiday-in-meghalaya.jpg
-type: "family"
+type: "family tours"
 category: "leisure"
 cat: "Comfort"
 tags: ["meghalaya", "comfort"]

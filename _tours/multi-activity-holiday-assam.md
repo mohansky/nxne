@@ -6,7 +6,7 @@ days: "6 to 12 days"
 description : "This Multi-Activity holiday of Assam takes you to its reknowned, Tea plantations, Wildlife Sanctuaries, River Islands on cycles, feet and boats."
 bg_image: /images/tours/multi-activity-holiday-assam.jpg
 image : /images/tours/multi-activity-holiday-assam.jpg
-type : "multi-activity"
+type : "multi-activity tours"
 category: "active"
 cat: "Easy"
 tags: ["assam", "multi-activity"]

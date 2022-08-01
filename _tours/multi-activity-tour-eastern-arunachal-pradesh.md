@@ -6,7 +6,7 @@ days: "6 to 12 days"
 description : "This Multi activity holiday of Eastern Arunachal Pradesh, takes you hiking, cycling, and rafting in the land of the 'Dawn lit Mountains'"
 bg_image: /images/tours/multi-activity-tour-eastern-arunachal-pradesh.jpg
 image : /images/tours/multi-activity-tour-eastern-arunachal-pradesh.jpg
-type: "multi-activity"
+type: "multi-activity tours"
 category: "active"
 cat: "Moderate"
 tags: ["east-arunachal", "multi-activity"]

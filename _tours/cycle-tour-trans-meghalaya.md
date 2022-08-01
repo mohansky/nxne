@@ -6,7 +6,7 @@ days: "10 to 15 days"
 description : "This cycling holiday of Meghalaya takes you across the Garo, Khasi and Jaintia hills, in essence covering the best of the state."
 bg_image: /images/tours/cycle-tour-trans-meghalaya.jpg
 image : /images/tours/cycle-tour-trans-meghalaya.jpg
-type : "cycling"
+type : "cycling tours"
 category: "active"
 cat: "Moderate to Strenuous"
 tags: ["meghalaya", "cycling"]

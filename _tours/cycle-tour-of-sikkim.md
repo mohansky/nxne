@@ -6,7 +6,7 @@ days: "9 to 14 days"
 description : "This Cycle tour takes you riding through the best of Sikkim and West Bengal"
 bg_image: /images/tours/cycle-tour-of-sikkim.jpg
 image : /images/tours/cycle-tour-of-sikkim.jpg
-type : "cycling"
+type : "cycling tours"
 category: "active"
 cat: "Strenuous"
 tags: ["sikkim","cycling"]

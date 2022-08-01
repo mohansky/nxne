@@ -6,7 +6,7 @@ days: "7 to 12 days"
 description : "A trek along the Indo-Nepalese border in the states of Sikkim and West Bengal.This trek takes you to the Singalila Ridge and Barsey Rhododendron Sanctuary"
 bg_image: /images/tours/trekking-in-sikkim-bengal.jpg
 image: /images/tours/trekking-in-sikkim-bengal.jpg
-type : "trekking"
+type : "trekking tours"
 category: "active"
 cat: "Strenuous"
 tags: ["sikkim", "west-bengal", "trekking"]

@@ -6,7 +6,7 @@ days: "9 to 15 days"
 description : "This Cycling holiday in western Arunachal Pradesh takes you on the high roads along the Bhutan and Tibet borders"
 bg_image: /images/tours/cycle-tour-of-western-arunachal-pradesh.jpg
 image : /images/tours/cycle-tour-of-western-arunachal-pradesh.jpg
-type: "cycling"
+type: "cycling tours"
 category: "active"
 cat: "Strenuous"
 tags: ["west-arunachal", "cycling"]

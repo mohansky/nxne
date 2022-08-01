@@ -6,7 +6,7 @@ days: "6 to 10 days"
 description : "This Family Holiday in Assam takes you across the best that the state has to offer. Wildlife, Adventure, Tea, Culture and more."
 bg_image: /images/tours/family-holiday-assam.jpg
 image : /images/tours/family-holiday-assam.jpg
-type : "family"
+type : "family tours"
 category: "leisure"
 cat: "Comfort"
 tags: ["assam", "comfort"] 

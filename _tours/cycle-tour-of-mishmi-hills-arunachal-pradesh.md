@@ -6,7 +6,7 @@ days: "11 to 15 days"
 description : "This cycle tour of Arunachal Pradesh takes you to the Mishmi Hills, easternmost flank of the Himalayan chain"
 bg_image: /images/tours/cycle-tour-of-mishmi-hills-arunachal-pradesh.jpg
 image : /images/tours/cycle-tour-of-mishmi-hills-arunachal-pradesh.jpg
-type: "cycling"
+type: "cycling tours"
 category: "active"
 cat: "Strenuous"
 tags: ["east-arunachal","cycling"]

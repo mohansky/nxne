@@ -8,7 +8,7 @@ bg_image: /images/tours/departures-ziro-festival-of-music-camping.jpg
 image : /images/tours/departures-ziro-festival-of-music-camping.jpg
 category: "departures"
 cat: "29 Sept - 2 Oct' 2022"
-type : "active"
+type : "departures"
 tags: ["September", "east-arunachal"]
 weight: 1
 touricon: "lucide:tent"
@@ -28,9 +28,21 @@ overview:
     icon : bi:globe
     data : Arunachal Pradesh & Assam
 
-  - label : COST
+  - label : Dome Tents
     icon : bi:wallet2
-    data : INR 3000/ night onwards 
+    data : ₹12,000 /person 
+  
+  - label : Walk-in Tents
+    icon : bi:wallet2
+    data : ₹16,000 /person
+  
+  - label : Family Tents (4 pax)
+    icon : bi:wallet2
+    data : ₹12,000 /tent /night
+
+  - label : Family Tents (6 pax)
+    icon : bi:wallet2
+    data : ₹15,000 /tent /night  
 
 overs:
 - l: Duration 
@@ -75,7 +87,27 @@ galleryimages:
   - "/images/tours/gallery/departures-ziro-festival-of-music-camping/ZFM-camping-4.jpg" 
   - "/images/tours/gallery/departures-ziro-festival-of-music-camping/ZFM-camping-5.jpg" 
   - "/images/tours/gallery/departures-ziro-festival-of-music-camping/ZFM-camping-6.jpg" 
-  - "/images/tours/gallery/departures-ziro-festival-of-music-camping/ZFM-camping-7.jpg" 
+  - "/images/tours/gallery/departures-ziro-festival-of-music-camping/ZFM-camping-7.jpg"
+
+othertours:
+- title: Ziro Festival 2022 & A Roadtrip to Central Arunachal Pradesh
+  link: /tours/departures-ziro-festival-of-music-2022-trip
+  image: /images/tours/departures-ziro-festival-of-music-2022-trip.jpg
+- title: Ziro Festival 2022 & A Roadtrip to Central, Eastern Arunachal Pradesh
+  link: /tours/departures-ziro-festival-of-music-2022-and-mechuka-roadtrip
+  image: /images/tours/departures-ziro-festival-of-music-2022-and-mechuka-roadtrip.jpg
+- title: Watershed of the Brahmaputra 
+  link: /tours/departures-cycle-tour-of-eastern-arunachal-pradesh
+  image: /images/tours/departures-cycle-tour-of-eastern-arunachal-pradesh.jpg
+- title: Hornbill Cycle Expedition Shillong to Kohima
+  link: /tours/departures-cycle-tour-of-nagaland-hornbill-festival
+  image: /images/tours/departures-cycle-tour-of-nagaland-hornbill-festival.jpg
+- title: Walks in the Clouds
+  link: /tours/departures-walking-tour-meghalaya
+  image: /images/tours/departures-walking-tour-meghalaya.jpg
+- title: Trekking in Namdapha National Park
+  link: /tours/departures-trekking-in-namdapha-rainforest
+  image: /images/tours/departures-trekking-in-namdapha-rainforest.jpg 
 ---
 
 #### ZIRO FESTIVAL OF MUSIC 2022: Camping Packages 

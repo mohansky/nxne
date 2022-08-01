@@ -6,7 +6,7 @@ days: "8 to 12 days"
 description : "Culture tour of Western Arunachal Pradesh and Assam"
 bg_image: /images/tours/culture-tour-western-arunachal-pradesh.jpg
 image : /images/tours/culture-tour-western-arunachal-pradesh.jpg
-type: "culture"
+type: "culture tours"
 category: "culture"
 cat: "Febuary"
 tags: ["arunachal"]

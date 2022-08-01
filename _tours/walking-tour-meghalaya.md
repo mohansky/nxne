@@ -8,7 +8,7 @@ bg_image: /images/tours/walking-tour-meghalaya.jpg
 image: /images/tours/walking-tour-meghalaya.jpg
 category: "active"
 cat: "Easy"
-type : "walking"
+type : "walking tours"
 tags: ["meghalaya", "trekking"]
 weight: 8
 touricon: "iconoir:walking"

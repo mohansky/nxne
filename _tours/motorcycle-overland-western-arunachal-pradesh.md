@@ -6,7 +6,7 @@ days: "8 to 12 days"
 description : "This tour takes you across the tea fields of Assam to the high roads of western Arunachal Pradesh"
 bg_image: /images/tours/motorcycle-overland-western-arunachal-pradesh.jpg
 image : /images/tours/motorcycle-overland-western-arunachal-pradesh.jpg
-type: "motorcycle"
+type: "motorcycle tours"
 category: "active"
 cat: "Moderate to Streneous"
 tags: ["west-arunachal", "overland"]

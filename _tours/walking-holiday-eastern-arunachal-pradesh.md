@@ -6,7 +6,7 @@ days: "7 to 12 days"
 description : "Tribes, Wildlife Parks, Culture, Cuisine and more to be explored in this walking holiday of Eastern Arunachal Pradesh."
 bg_image: /images/tours/walking-holiday-eastern-arunachal-pradesh.jpg
 image : /images/tours/walking-holiday-eastern-arunachal-pradesh.jpg
-type : "walking"
+type : "walking tours"
 category: "active"
 cat: "Easy to Moderate"
 tags: ["east-arunachal", "trekking", "walking"]

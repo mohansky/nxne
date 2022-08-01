@@ -6,7 +6,7 @@ days: "6 to 12 days"
 description : "Cultural Tour of Eastern Arunachal Pradesh. Land of the Animist and Theravada tribes"
 bg_image: /images/tours/culture-tour-eastern-arunachal-pradesh.jpg
 image : /images/tours/culture-tour-eastern-arunachal-pradesh.jpg
-type: "culture"
+type: "culture tours"
 category: "culture"
 cat: "October to March"
 tags: ["arunachal"]

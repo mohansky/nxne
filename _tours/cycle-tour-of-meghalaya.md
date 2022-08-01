@@ -6,7 +6,7 @@ days: "6 to 12 days"
 description : "This Cycle tour of Meghalaya takes you rexploring the Khasi and Jaintia Hills."
 bg_image: /images/tours/cycle-tour-of-meghalaya.jpg
 image : /images/tours/cycle-tour-of-meghalaya.jpg
-type : "cycling"
+type : "cycling tours"
 category: "active"
 cat: "Moderate to Strenuous"
 tags: ["meghalaya", "cycling"]

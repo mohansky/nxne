@@ -8,7 +8,7 @@ bg_image: /images/tours/departures-ziro-festival-of-music-2022-trip.jpg
 image : /images/tours/departures-ziro-festival-of-music-2022-trip.jpg
 category: "departures"
 cat: "29 Sept - 4 Oct, 2022"
-type : "September"
+type : "departures"
 tags: ["September", "east-arunachal"]
 weight: 2
 touricon: "iconoir:car-outline"
@@ -89,10 +89,34 @@ faq:
   text: We have a very experienced team which is also local. This reflects in the overall safety of our tours. Rest assured your guides know where extra attention is required and when. All our routes are well known to us, we know where the nearest medical facilities are, we know whom to contact if in case of an emergency, we know all the alternate routes in case of road blockages. We have CASEVAC protocols in place to streamline the process in case of emergencies. You can rest easy knowing that in the outdoors in general and this region in particular you are in safe hands with us.
 
 galleryimages:
-  - "/images/tours/gallery/departures-ziro-festival-of-music-camping/ZFM-camping-1.jpg"
-  - "/images/tours/gallery/departures-ziro-festival-of-music-camping/ZFM-camping-2.jpg" 
-  - "/images/tours/gallery/departures-ziro-festival-of-music-camping/ZFM-camping-3.jpg" 
-  - "/images/tours/gallery/departures-ziro-festival-of-music-camping/ZFM-camping-4.jpg" 
+  - "/images/tours/gallery/departures-ziro-festival-of-music-2022-trip/departures-ziro-festival-of-music-2022-trip1.jpg"
+  - "/images/tours/gallery/departures-ziro-festival-of-music-2022-trip/departures-ziro-festival-of-music-2022-trip2.jpg" 
+  - "/images/tours/gallery/departures-ziro-festival-of-music-2022-trip/departures-ziro-festival-of-music-2022-trip3.jpg" 
+  - "/images/tours/gallery/departures-ziro-festival-of-music-2022-trip/departures-ziro-festival-of-music-2022-trip4.jpg" 
+  - "/images/tours/gallery/departures-ziro-festival-of-music-2022-trip/departures-ziro-festival-of-music-2022-trip5.jpg" 
+  - "/images/tours/gallery/departures-ziro-festival-of-music-2022-trip/departures-ziro-festival-of-music-2022-trip6.jpg" 
+  - "/images/tours/gallery/departures-ziro-festival-of-music-2022-trip/departures-ziro-festival-of-music-2022-trip7.jpg"
+  - "/images/tours/gallery/departures-ziro-festival-of-music-2022-trip/departures-ziro-festival-of-music-2022-trip8.jpg"
+
+othertours:
+- title: Ziro Festival 2022 Camping Packages
+  link: /tours/departures-ziro-festival-of-music-camping
+  image: /images/tours/departures-ziro-festival-of-music-camping.jpg
+- title: Ziro Festival 2022 & A Roadtrip to Central, Eastern Arunachal Pradesh
+  link: /tours/departures-ziro-festival-of-music-2022-and-mechuka-roadtrip
+  image: /images/tours/departures-ziro-festival-of-music-2022-and-mechuka-roadtrip.jpg
+- title: Watershed of the Brahmaputra 
+  link: /tours/departures-cycle-tour-of-eastern-arunachal-pradesh
+  image: /images/tours/departures-cycle-tour-of-eastern-arunachal-pradesh.jpg
+- title: Hornbill Cycle Expedition Shillong to Kohima
+  link: /tours/departures-cycle-tour-of-nagaland-hornbill-festival
+  image: /images/tours/departures-cycle-tour-of-nagaland-hornbill-festival.jpg
+- title: Walks in the Clouds
+  link: /tours/departures-walking-tour-meghalaya
+  image: /images/tours/departures-walking-tour-meghalaya.jpg
+- title: Trekking in Namdapha National Park
+  link: /tours/departures-trekking-in-namdapha-rainforest
+  image: /images/tours/departures-trekking-in-namdapha-rainforest.jpg   
 ---
 
 #### ZIRO FESTIVAL OF MUSIC 2022: A Roadtrip to Central Arunachal Pradesh

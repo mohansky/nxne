@@ -7,7 +7,7 @@ description : "This tour takes you to eastern Arunachal Pradesh on a multiday cy
 bg_image: /images/tours/departures-cycle-tour-of-eastern-arunachal-pradesh.jpg
 image : /images/tours/departures-cycle-tour-of-eastern-arunachal-pradesh.jpg
 # video: https://www.youtube.com/watch?v=AV5-Chp6p14&ab_channel=NorthBynortheast
-type: "cyling"
+type: "departures"
 category: "departures"
 cat: "18 - 23 March' 2022"
 tags: ["arunachal"]
@@ -123,9 +123,27 @@ galleryimages:
 
 
 othertours:
-- title: The Brahmaputra Explorer 
-  link: /tours/cycle-tour-of-assam
-  image: /images/tours/cycle-tour-of-assam.jpg
+- title: Ziro Festival 2022 Camping Packages
+  link: /tours/departures-ziro-festival-of-music-camping
+  image: /images/tours/departures-ziro-festival-of-music-camping.jpg
+- title: Ziro Festival 2022 & A Roadtrip to Central Arunachal Pradesh
+  link: /tours/departures-ziro-festival-of-music-2022-trip
+  image: /images/tours/departures-ziro-festival-of-music-camping.jpg
+- title: Ziro Festival 2022 & A Roadtrip to Central, Eastern Arunachal Pradesh
+  link: /tours/departures-ziro-festival-of-music-2022-and-mechuka-roadtrip
+  image: /images/tours/departures-ziro-festival-of-music-camping.jpg
+- title: Watershed of the Brahmaputra 
+  link: /tours/departures-cycle-tour-of-eastern-arunachal-pradesh
+  image: /images/tours/departures-cycle-tour-of-eastern-arunachal-pradesh.jpg
+- title: Hornbill Cycle Expedition Shillong to Kohima
+  link: /tours/departures-cycle-tour-of-nagaland-hornbill-festival
+  image: /images/tours/departures-cycle-tour-of-nagaland-hornbill-festival.jpg
+- title: Walks in the Clouds
+  link: /tours/departures-walking-tour-meghalaya
+  image: /images/tours/departures-walking-tour-meghalaya.jpg
+- title: Trekking in Namdapha National Park
+  link: /tours/departures-trekking-in-namdapha-rainforest
+  image: /images/tours/departures-trekking-in-namdapha-rainforest.jpg       
 --- 
 
 

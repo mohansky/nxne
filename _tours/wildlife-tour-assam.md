@@ -6,7 +6,7 @@ days: "5 to 12 days"
 description : "The Wildlife tour of Assam takes you to some of the better wildlife sancturies of India. Kaziranga, Manas, Nameri, Dibrusaikhowa and Namdapha National Parks"
 bg_image: /images/tours/wildlife-tour-assam.jpg
 image : /images/tours/wildlife-tour-assam.jpg
-type: "wildlife"
+type: "wildlife tours"
 category: "leisure"
 cat: "Comfort"
 tags: ["assam", "wildlife"]

@@ -6,7 +6,7 @@ days: "6 to 12 days"
 description : "This Multi-day Cycle Tour of Assam takes you across the Brahmaputra valley, the physical heart of Northeast India."
 bg_image: /images/tours/cycle-tour-of-assam.jpg
 image : /images/tours/cycle-tour-of-assam.jpg
-type : "cycling"
+type : "cycling tours"
 category: "active"
 cat: "Easy to Moderate"
 tags: ["assam", "cycling"]

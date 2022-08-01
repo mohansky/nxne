@@ -6,7 +6,7 @@ days: "6 to 10 days"
 description : "We take you to some of the easternmost regions of India. Wildlife, Adventure, Culture and more."
 bg_image: /images/tours/family-eastern-arunachal-pradesh.jpg
 image : /images/tours/family-eastern-arunachal-pradesh.jpg
-type : "family" 
+type : "family tours" 
 category: "leisure"
 cat: "Offbeat"
 tags: ["east-arunachal", "offbeat"]

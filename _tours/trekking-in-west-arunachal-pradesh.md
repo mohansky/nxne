@@ -6,7 +6,7 @@ days: "10 to 12 days"
 description : "This high altitude trek takes you walking along the Bhutanese border between prestine high altitude lakes"
 bg_image: /images/tours/trekking-in-west-arunachal-pradesh.jpg
 image : /images/tours/trekking-in-west-arunachal-pradesh.jpg
-type : "trekking"
+type : "trekking tours"
 category: "active"
 cat: "Strenuous"
 tags: ["west-arunachal", "trekking"]

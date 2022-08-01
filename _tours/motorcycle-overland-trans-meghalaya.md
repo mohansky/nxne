@@ -6,7 +6,7 @@ days: "7 to 14 days"
 description : "This Motorcycle and Overland tour takes you across the three Hills of Meghalaya, essentially covering the best of the state"    
 bg_image: /images/tours/motorcycle-overland-trans-meghalaya.jpg
 image : /images/tours/motorcycle-overland-trans-meghalaya.jpg
-type: "motorcycle"
+type: "motorcycle tours"
 category: "active"
 cat: "Moderate"
 tags: ["meghalaya", "overland"]

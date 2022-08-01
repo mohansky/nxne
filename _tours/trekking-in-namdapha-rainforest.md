@@ -8,7 +8,7 @@ bg_image: /images/tours/trekking-in-namdapha-rainforest.jpg
 image : /images/tours/trekking-in-namdapha-rainforest.jpg
 category: "active"
 cat: "Easy to Moderate"
-type : "active"
+type : "trekking tours"
 tags: ["trekking", "east-arunachal"]
 weight: 10
 touricon: "iconoir:trekking"
