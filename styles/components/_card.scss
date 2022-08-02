@@ -69,3 +69,10 @@
 .insights-text{
   text-align: justify; 
 }
+ 
+.region-card{ 
+  margin: 1rem 0;
+  &:nth-child(even) {
+    flex-direction: row-reverse !important; // 3 
+  }
+}
