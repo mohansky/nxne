@@ -41,7 +41,7 @@ overview:
 
   - label : COST
     icon : bi:wallet2
-    data : INR 45,000/ Twin share
+    data : ₹45,000/ Twin share
  
 
 overs:
@@ -110,6 +110,12 @@ galleryimages:
   - "/images/tours/gallery/departures-cycle-tour-of-nagaland-hornbill-festival/departures-cycle-tour-of-nagaland-hornbill-festival6.jpg"
   - "/images/tours/gallery/departures-cycle-tour-of-nagaland-hornbill-festival/departures-cycle-tour-of-nagaland-hornbill-festival7.jpg"
   - "/images/tours/gallery/departures-cycle-tour-of-nagaland-hornbill-festival/departures-cycle-tour-of-nagaland-hornbill-festival8.jpg"
+  - "/images/tours/gallery/departures-cycle-tour-of-nagaland-hornbill-festival/departures-cycle-tour-of-nagaland-hornbill-festival9.jpg"
+  - "/images/tours/gallery/departures-cycle-tour-of-nagaland-hornbill-festival/departures-cycle-tour-of-nagaland-hornbill-festival10.jpg"
+  - "/images/tours/gallery/departures-cycle-tour-of-nagaland-hornbill-festival/departures-cycle-tour-of-nagaland-hornbill-festival11.jpg"
+  - "/images/tours/gallery/departures-cycle-tour-of-nagaland-hornbill-festival/departures-cycle-tour-of-nagaland-hornbill-festival12.jpg"
+  - "/images/tours/gallery/departures-cycle-tour-of-nagaland-hornbill-festival/departures-cycle-tour-of-nagaland-hornbill-festival13.jpg"
+  - "/images/tours/gallery/departures-cycle-tour-of-nagaland-hornbill-festival/departures-cycle-tour-of-nagaland-hornbill-festival14.jpg"
 
 othertours:
 - title: Ziro Festival 2022 Camping Packages
