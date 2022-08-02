@@ -41,7 +41,7 @@ overview:
 
   - label : COST
     icon : bi:wallet2
-    data : INR 39,000/ Twin share
+    data : ₹39,000/ Twin share
 
 overs:
   - l: Level 

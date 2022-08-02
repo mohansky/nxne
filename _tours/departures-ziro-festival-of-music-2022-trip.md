@@ -37,7 +37,7 @@ overview:
 
   - label : COST
     icon : bi:wallet2
-    data : INR 37,500 / onwards
+    data : ₹37,500 / onwards
 
 overs:
 - l: Total Days
